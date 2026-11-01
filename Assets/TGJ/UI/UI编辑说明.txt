@@ -1,0 +1,90 @@
+孕育与诞生 · 在 Unity 里修改界面
+
+最快的操作方法
+1. 打开 Assets/TGJ/Scenes/Graybox.unity，先停止 Play。
+2. 在 Hierarchy 选中 GameUI（Canvas），或顶部菜单 TGJ > UI > Select Scene Canvas。
+3. 在 Inspector 的“预览界面”里选主菜单、对话、背包等，点击“显示此界面”。
+4. 切换 Scene，打开 2D。展开 GameUI > Layout_1920x1080，选择需要调整的按钮或文字。
+5. 按 T 使用 Rect Tool 拖动位置/边框，或直接修改 Inspector 的 Rect Transform。
+6. Ctrl+S 保存场景。点击 Play 检查实际效果。
+
+运行时会按照剧情切换界面，但不会重建主界面、重置按钮位置或覆盖你设置的字体大小、颜色、图片。
+Play 中临时调整的对象仍遵循 Unity 的规则：停止后通常不会保留。请在停止 Play 后修改。
+“显示此界面”只是编辑预览，不会写入玩家进度。进入 Play 后仍从正常主菜单开始。
+不要修改绑定 Key、删除 Button/UIElement/UIView 组件或清空组件引用；可以任意改物体名称、位置和外观。
+
+场景修改与 Prefab 修改有什么不同
+场景里拖动：保存为这个场景的 Prefab Override，马上对当前游戏生效。
+修改预制体：在 Project 中双击相应 Prefab，进入 Prefab Mode，修改并保存。
+同一属性如果已有场景覆盖，会优先使用场景值。想改全局默认时，可以在 Inspector 的 Overrides 中将对应属性 Apply 到预制体；想跟随预制体则 Revert 对应覆盖。
+GameUI.prefab 是完整 Canvas，包含各个界面的嵌套预制体。
+首次迁移工具已经执行完毕；再次点 Create Editable Canvas 不会覆盖你的排版。
+
+常用资源位置（均位于 Assets/TGJ/UI/Prefabs）
+GameUI.prefab                    完整 Canvas，可整体调整和预览
+Views/MainMenu.prefab            主菜单，标题和按钮
+Views/Dialogue.prefab            右侧对话栏、滚动区域、继续/自动/快进/隐藏按钮
+Views/Prologue.prefab            序幕引文与署名的位置、字体和共同淡入淡出
+Views/Cinematic.prefab           黑屏过场与结局文本
+Views/HUD.prefab                 顶部功能按钮和右上角前后箭头
+Views/Hall.prefab                第一幕场景、人物、挎包和各阶段热点
+Views/Memory_Hall.prefab         回到音乐厅的热点
+Views/Memory_Motel.prefab        汽车旅馆的热点
+Views/Memory_Diner.prefab        快餐店的热点
+Views/Memory_Classroom.prefab    教室的热点
+Views/InventoryTray.prefab      底部物品栏，可逐个调整/换图
+Views/Choices_phone.prefab      电话话题
+Views/Choices_cchoice.prefab    C 分支选项
+Views/Choices_rewind.prefab     倒带选项
+Views/Choices_ending.prefab     结局选项
+Views/Modal_name.prefab         取名输入框
+Views/Modal_map.prefab          地图
+Views/Modal_inventory.prefab    物品清单
+Views/Modal_collection.prefab   收藏背包
+Views/Modal_archive.prefab      人物档案与成就
+Views/Modal_log.prefab          聊天记录
+Views/Modal_pause.prefab        暂停菜单
+Views/Modal_settings.prefab     设置与滑杆
+Views/Modal_credits.prefab      制作人员（三行可直接改 Text）
+Components/DialogueCurrentLine.prefab    当前对话的字体、颜色、行距、内边距
+Components/DialogueHistoryLine.prefab    历史对话的字体、颜色、行距、内边距
+Components/ListTextRow.prefab            物品清单与 Log 条目
+Components/ArchiveCard.prefab            人物与成就卡片
+Components/PlacedItem.prefab             放入场景后的物品外观
+Components/DragItem.prefab               鼠标拖动时的物品外观
+
+换美术
+1. 将图片放进 Assets 下自己的美术目录。
+2. 在图片 Inspector 把 Texture Type 设为 Sprite (2D and UI)，点 Apply。
+3. 选中要替换的矩形，把图片拖到 Image > Source Image。
+4. 如果不想让图片染色，将 Image > Color 调成白色；需要等比例显示可启用 Preserve Aspect。
+5. 文字、功能与备注是独立子物体，可以分别移动。GameUI 的 Show Placeholder Labels 可统一隐藏功能与备注。
+可以新增装饰 Image 子物体。纯装饰建议取消 Raycast Target，避免挡住按钮和拖放。
+普通按钮的图片、字体和尺寸都不由流程代码重写。
+
+修改对话和滚动列表
+剧本正文仍修改 Assets/TGJ/Resources/TGJ/Story.yarn；运行时对话会填充到行预制体。
+不要把正式对白写进 Dialogue 的编辑器示例条目。示例只用于排版，运行时隐藏，打包时移除。
+滚动正文的各行会按文本长度自动排列：调整 Content 上的 Vertical Layout Group 的 Padding/Spacing，以及行预制体的字体、字号、行距。
+UIView 的 Row Vertical Padding 控制动态行需要预留的上下空间。
+希望对话区更宽或更高：调整 Dialogue 中“滚动区域”的 Rect Transform；文本会按新宽度自动换行。
+取名框、进度数字、物品名称等动态标签由流程/配置填充。普通动态标签可关闭 UIElement 的 Use Runtime Text，改用自己手填的固定文案。
+
+场景热点与物品
+Hall 下有 Phase0～Phase4 分组，分别对应醒来、检查挎包、电话、选观众、音乐会入场。
+预览时可手动展开并切换分组可见性；运行时由剧情阶段控制。
+场景对话时的缩放、鼠标视差可在 GameUI 上调整 Conversation World Scale 和 Parallax Distance。
+物品槽按稳定的物品 ID 绑定，现有十个槽位可分别拖动、换图。新增物品类型或新增场景仍需要增加配置和对应 UI 绑定。
+对话行、Log 条目和场景中放置的物品会在运行时实例化；它们的外观来自 Components 里的预制体。
+
+检查与打包
+Play 后：TGJ > Run Flow Smoke Tests 使用独立测试存档走完整流程，不覆盖玩家正常存档。
+结果位于 TestResults/graybox-smoke.txt。
+停止 Play 后：TGJ > Build Windows Player 更新 Builds/Windows/TGJ.exe。
+不要使用 TGJ > Legacy 下的重建场景工具来做日常排版，它会重建场景。
+TGJ > Reload Story Content 只更新剧情种子配置，不重建 UI，但会覆盖 Catalog 的内容配置。
+
+字体
+项目使用 UI/Fonts/NotoSansCJKsc-Regular.otf，可在 Text 的 Font 字段替换为你自己的字体。
+字体原始来源：https://github.com/notofonts/noto-cjk
+原字体许可位于 UI/Fonts/LICENSE.txt；随可执行版本提供同一许可。

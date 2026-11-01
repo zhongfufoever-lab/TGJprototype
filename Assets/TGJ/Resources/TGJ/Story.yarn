@@ -1,0 +1,521 @@
+title: Prologue
+---
+“外部世界在漠然性的法则下叹息……”  ——克尔凯郭尔 #line:Prologue_0
+===
+
+title: Wake
+---
+你（主角）独白(不小心在候场时睡着惊醒)：我怎么会在这里醒来？ #line:Wake_0
+旁白：淡淡的，遥远的宿醉还在你的脑海里晃荡着微微刺痛的波纹，神经末梢一滴一滴传来钟声一样的战栗，粗糙、麻木、迟钝，有如磨损严重的绳索纤维，“即便再年轻个五六岁也不会是这样……”这念头不无根据地在心头飘过。 #line:Wake_1
+当你意识到周围的嘈杂时，人群的噪音其实已经非常难以忍受了，不过即使是在人头攒动的大厅里，你也出于虚弱下意识裹紧了上衣。 #line:Wake_2
+你注意到一个黑色的挎包正搁在脚边，一层燠热的细汗粘在和挎包贴合的小腿上。 #line:Wake_3
+===
+
+title: Bag0
+---
+一部翻盖手机 #line:Bag0_0
+===
+
+title: Bag1
+---
+音乐会门票，上有A的签名 #line:Bag1_0
+===
+
+title: Bag2
+---
+一本崭新的音乐杂志 #line:Bag2_0
+===
+
+title: Bag3
+---
+钱包 #line:Bag3_0
+===
+
+title: Bag4
+---
+消毒酒精 #line:Bag4_0
+===
+
+title: Bag5
+---
+一柄钥匙，钥匙环上套着写有房间号的小卡片 #line:Bag5_0
+===
+
+title: Bag6
+---
+一本旧书，《杜伊诺哀歌》扉页上有淡淡的字迹，三个人的签名（主角和AB） #line:Bag6_0
+===
+
+title: PhoneIntro
+---
+旁白：音乐会吗？你是敏感到愿意在这种地方待下去的人吗？很明显一种陌生不安的躁动在骚扰你，周围填满了不熟悉的面孔，如果要穿过座椅离开，就得给好几个陌生人道歉行礼……那更是让人不寒而栗啊……这种等待，这种可怜的好奇，真是让你…… #line:PhoneIntro_0
+悲哀 #line:PhoneIntro_1
+正是这个，这洋溢着无比充裕的熟悉感的恶心东西，不是吗，让你厌倦、疲惫，但又带来十足黏稠的掌控感，这种可怜之人骄傲的欢快，穿在你身上再合身不过了…… #line:PhoneIntro_2
+你想摆脱它，哈哈，你真的还以为你能做到吗？ #line:PhoneIntro_3
+掉进糖浆罐里的蛆虫，礼节性地翻腾两下之后，不就欣喜堕落地沉溺在甜蜜的窒息中央了吗？ #line:PhoneIntro_4
+电话铃声响起 #line:PhoneIntro_5
+你被吓了一跳 #line:PhoneIntro_6
+几个周围投来的明知故问的消遣眼神让你隐隐愤怒。 #line:PhoneIntro_7
+你俯下身子接起电话 #line:PhoneIntro_8
+女主（电话中）（游戏里这里暂且写做“女声”）：演出开始了吗？ #line:PhoneIntro_9
+旁白：年轻女子的声音，口吻自然，仿佛非常熟络——你还和这样的人有接触吗？ #line:PhoneIntro_10
+你：没有，还在候场，你——（你也怀着小小的恶作剧心理使用稀松平常的语气） #line:PhoneIntro_11
+女声：嗯，你能不能帮我找找一个，嗯，叫“哲学家”的人，他就在音乐厅里。 #line:PhoneIntro_12
+（她说话时带有故作镇定的喘气声太明显了） #line:PhoneIntro_13
+你：哲学家？（你的哂笑声甚至传到了现实世界中）这么多人里恐怕不好找…… #line:PhoneIntro_14
+女声：哎呀，你直接站起来叫一声哲学家，搞不好那人就过来找你了。 #line:PhoneIntro_15
+你：你到底想干嘛？ #line:PhoneIntro_16
+女声：（她按捺不住加快了语速，有些慌张）听着，你要是找到了人，就说，额，“后门的火苗就要熄灭了“。 #line:PhoneIntro_17
+你：说到底我为什么要帮你找人呢？ #line:PhoneIntro_18
+女声：哈哈哈，也没什么，你就和我爸好好旅游吧，你要是愿意帮忙，也只会让我很感谢你而已。（她似乎注意到自己先前的失态，随即拿出了漫不经心的面孔） #line:PhoneIntro_19
+旁白：她爸爸，是你的同伴吗？原来你这种人竟然还没有沦落到孤身一人的地步。 #line:PhoneIntro_20
+（环视一周，似乎没人要跟你搭话。虽然后排座位大多还空着，但是显然演出要开始了） #line:PhoneIntro_21
+===
+
+title: Phone0
+---
+你：对不起了，小姐，虽然我也闲得无所事事，但我可没空陪你无理取闹，或者你愿意讲讲——你爸爸的事？ #line:Phone0_0
+女声：还没听够吗？不过现在可来不及，以后再见面的话，你还可以随便问嘛。 #line:Phone0_1
+你：“哲学家”的事情看来很重要咯？我看你一幅想要尽快结束谈话的样子。 #line:Phone0_2
+女声：我可不是在请求你哦，一切看你心情，这事也没什么大不了的。 #line:Phone0_3
+（听到她这么说，你不由得想，她的意思其实是，“我们再也不见”） #line:Phone0_4
+===
+
+title: Phone1
+---
+你：那好吧，我可以试试，不过，你得先告诉我我的名字。 #line:Phone1_0
+女声：你在说什么？你的名字？你把它也搞丢在你轻描淡写的自我怀疑里面了吗？嗯，不过这也像你干的事情。我要是现在随便给你取个名字，你会不会当真呐？哈哈哈。 #line:Phone1_1
+你：如果你愿意好好告诉我名字，我也会很感谢你哦。 #line:Phone1_2
+===
+
+title: Named
+---
+女声：你对它不满意我也无能为力，每个人掉进这窄窄的密封袋里，不管有没有意识到，其实都有怨气吧。没时间和你闲聊了——同样的问题，你为什么不问问哲学家呢？ #line:Named_0
+===
+
+title: Phone2
+---
+你：你爸爸现在可不在我身边，你知道他在什么位置吗？（你可不想惹麻烦，模棱两可的问法此时此刻恰到好处） #line:Phone2_0
+女声：你是指——哦，他没给你讲吗，哈哈哈，他即便在这种小演出里也是远远混不上首席的，搞不好他还得帮忙给人翻页呐。 #line:Phone2_1
+你：我还是很期待你爸爸的演出的。 #line:Phone2_2
+女声：怎么？你对他还要奉承吗？还是说，独处个两三天下来，你就被他滔滔不绝的吹嘘唬得黑白不分了？ #line:Phone2_3
+你：我还是想要维系一下别人正常的父女关系嘛。 #line:Phone2_4
+女声：你可别逗我笑了。对了，我还蛮好奇的，他要是还打了那条花花绿绿的丑领带，你可得给我拍张照留着。 #line:Phone2_5
+你：再说吧。 #line:Phone2_6
+===
+
+title: Phone3
+---
+你：后门的火苗是什么东西？ #line:Phone3_0
+女声：和海岸的灯塔、丛林中的公路、宇宙里的太空站一样，都是看到了就会相信的东西，懂了吗？ #line:Phone3_1
+你：那么说它熄灭了，就是希望消失的意思咯？ #line:Phone3_2
+女声：信任的时候，也不太需要希望嘛。 #line:Phone3_3
+你：那你恐怕不太相信这个哲学家吧。 #line:Phone3_4
+女声：你说话太烦人了，把那句话传达出去，好吗？ #line:Phone3_5
+===
+
+title: AudienceLead
+---
+旁白：你会帮忙吗？凭借你那点虚伪的——热心？ #line:AudienceLead_0
+站起来大声呼喊这种事情根本不可能发生在你的世界中，“即便是为了我自己”，你不正在这么想吗？那女孩以为她凭借着青春奢华的号召力，就能驱使你这无穷自恋的懒人吗？你嘲笑她也就是在嘲笑自己哦。 #line:AudienceLead_1
+其实也有折中的办法。 #line:AudienceLead_2
+遇到是非分明和道德考验的时刻你最擅长这么办了。 #line:AudienceLead_3
+“她说起话来明显是我熟悉的人……”这份熟悉，你不敢多想了吗？ #line:AudienceLead_4
+周围近处一圈观众，或沉默或说笑，“哲学家”会不会就在里面呢？用不打扰到第三个人的音量，怯生生询问一两次，似乎是能让你淫荡的高尚自尊称心如意的做法。 #line:AudienceLead_5
+===
+
+title: AudienceA
+---
+你（转过头试探性地询问）：哲学家？ #line:AudienceA_0
+甲：什么？（这人回过头来带着单纯的笑容，就像是在说很乐意帮忙一样，你希望自己的笑容看起来也能像这样，不过你并不是来寻求帮助的，说到底，这也不像一个哲学家的笑容） #line:AudienceA_1
+你：你是，哲学家吗？ #line:AudienceA_2
+甲：哈哈，您真有趣，我看起来像哲学家吗？（她拿手肘碰了碰左边的小孩）要不是为了这孩子，我可不会无聊接收这些高雅艺术。您想必是音乐的行家里手吧…… #line:AudienceA_3
+（孩子面无表情，静悄悄地坐着不动，眼镜边框上翻涌着青色黄色的光线） #line:AudienceA_4
+旁白：你想嘲笑她对吧，你已经看见了嘲笑她的孩子了不是吗，你看见了，淹没在麻醉剂里面，抽搐的矛盾，对吧，就像，镜子一样。他们不可能爱相同的东西，这就对啦，世界在你眼里就该是这么地……你笑了，而且正好合乎礼貌。 #line:AudienceA_5
+（掌声响起，乐团开始入场，你们闭上了嘴） #line:AudienceA_6
+===
+
+title: AudienceB
+---
+你：（小声）您一定是哲学家吧？ #line:AudienceB_0
+乙：哦不不不，您认错人了吧，我只是来听热闹的。 #line:AudienceB_1
+你：有人让我在这里找找哲学家来着，不好意思，打扰了。 #line:AudienceB_2
+乙：这么说，我在您眼里还算个体面人了，哈哈，真是抬举我了，我老伴还常常嫌我太老实了。 #line:AudienceB_3
+你：您老伴？ #line:AudienceB_4
+乙：说来让您见笑了，她今天要登台演出，在家锯了几个月床腿，也不知道怎么的就被选上了，还不愿意我来听呢，说是浪费钱…… #line:AudienceB_5
+旁白：你又开始讨厌自己了。 #line:AudienceB_6
+放心，你是逃不出去的。 #line:AudienceB_7
+你常常觉得，你是个站在自己的体内监视自己的人，你有这种被强加的责任。 #line:AudienceB_8
+你像在黑夜里旁观一大团熊熊燃烧的猩红篝火一样，默默不语地面对着自己的背德感。 #line:AudienceB_9
+你刚刚在想，这种情感真挚的老人打造出来的艺术技艺，也只不过是充满瑕疵的劣等品吗？你揣摩那个老妇人欣喜若狂地在这种临时组建的，水平低下的乐团里发挥自己的想象力……对吧，你就甘愿看到丑恶的那一面，你就甘愿拜倒在世界的冷漠之裙下，又有谁能忍住不去憎恨这种叹息上瘾的自我呢？ #line:AudienceB_10
+你装出来的每一秒的平静，简直都是奇迹。 #line:AudienceB_11
+你还可以想象出一个暴怒咆哮的自己，谢天谢地。 #line:AudienceB_12
+如果你活到这个大胡子老汉的年纪，事情会恶化到什么程度呢？ #line:AudienceB_13
+你的恐惧和寒冷中的颤抖共振着，辉煌的自卑和失望扩散到世界中，一面面镜子被打碎。你是“被禁止”的，你那“被禁止”的哀伤，早就像黏菌一样，在世界凝固静止的冰面下，疯狂地抽开细密的丝线，填满，夺取了你的整个身体……距离你开始尝试认识一切之后，不过花了短短二十几年而已。 #line:AudienceB_14
+你：您真是个幸福的人啊，祝您在演出中听得愉快。（你并没有继续细听老人讲话的底气，拒绝温暖的可能对你来说反倒像是关上冰箱门一样。只要你处在一个如你所愿的绝望世界中，就没有什么能够打碎你剔透的自恋。你的语气几乎咬牙切齿，那个堆笑简直像是吞下了一团厨余垃圾……） #line:AudienceB_15
+（掌声响起，乐团开始入场，但你们早已陷入无话可说但又暂时无法分离的尴尬中，不，只有你一个人这样而已） #line:AudienceB_16
+===
+
+title: AudienceC
+---
+你：（喃喃自语）如果希望都不能帮到一个青春期的女孩，那么哲学家也不能。 #line:AudienceC_0
+前排的人：（扭过头看了你一眼） #line:AudienceC_1
+你：（并不畏惧这次眼神接触，那看起来是个疲惫的人，因为这种疲惫，你觉得你们很像，甚至，你觉得那人有一种，很趁手的掌控感……辱骂自己两句，紧接着就如同被特别豁免一样，去做罪恶的事情，真有你的。）你有异议吗？ #line:AudienceC_2
+（C脸色不太好，低下眼睛，轻轻摇了一下头，随即就把身子转了回去） #line:AudienceC_3
+你：一般人听到陌生的说话声，多半只会选择埋下头装作没注意到，然后兴奋地想要偷偷再听清两句吧。“青春期”——（你迟疑了一会儿，残存的印象中，前排这人的面孔似乎让你难以判断性别，于是“女孩”你没有说得出口）“哲学家”？对哪个词语产生了特别的兴趣呢？ #line:AudienceC_4
+（听到“哲学家”这个词的时候，那人身体微微抖动了一下，虽然隔着座椅靠背，你只看到那人的自制力像刚刚飞走了麻雀的树枝一样很轻地摇晃片刻，但是你很清楚这种表象背后，寒颤一路坠进灵魂深处，撞在心壁上，无可抑制地迸溅出折磨人的金石相鸣声。） #line:AudienceC_5
+你：这位——朋友，不好意思，我并没有恶意（你探出身子，手搭在前一排的靠背上），只不过碰到了一点烦心事，比如，有个女生着急忙慌地打电话来要我找找一个叫“哲学家”的人（还有突然搞丢了记忆，不过你居然对此云淡风轻），听她语气还挺郑重其事的，现在一想，这搞不好是个恶作剧呐。 #line:AudienceC_6
+（你还想乱七八糟说些什么） #line:AudienceC_7
+C：她说让你找叫做哲学家的人吗？她还说什么了？（这人立刻插入了你说话思考的短暂停顿，皱着眉头盯着你） #line:AudienceC_8
+旁白：哈哈哈，没想到真的被你撞上了，怎么样，你打算怎么做？久违地尝尝看，助人为乐味儿的，自恋？ #line:AudienceC_9
+你们俩的性格一望而知地不和，但是，你不敢于承担冲突，毕竟只要在引线快要燃尽的时候，你就可以甩出你的拿手好戏了，“我真讨厌自己”，或者：“这么做，我也很痛苦”，或者：“你的谴责全都有理有据，我受到处罚其实也心甘情愿”，当体内那个唱双簧的监视者站出来，当你也临阵倒戈附和别人，希望毁灭自己的时候，不就能够免于承担一切责任了吗？ #line:AudienceC_10
+但是眼下的程度似乎也还不至于做到那样…… #line:AudienceC_11
+你：虽然我也不知道那女孩为什么要把你叫做哲学家，但是你大概听得懂这句话吧：“后门的……火苗，就要熄灭了。” #line:AudienceC_12
+C：（脸庞闪过一丝不解）什么，火苗？是谁让你带话的？ #line:AudienceC_13
+（她说话的尾音让你认清了这是个女孩） #line:AudienceC_14
+你：我也记不清和她上次见面是什么时候了，所以你承认自己是哲学家咯？你们是同学、朋友？ #line:AudienceC_15
+C：我可得纠正你，她从来没叫过我哲学家，这是……这不关你的事……你们两个之间是什么关系？ #line:AudienceC_16
+（剧院大厅和过道的灯光突然暗下来，只剩下舞台上明亮炫目的射灯，金黄的光晕仿佛从她背后深远的地方“哗”地一声照来，她的身形轮廓如同瞬间盖上了一张纤细柔和的绒毛毯，这突如其来的景象让你想到了湛蓝的海面上突然刮起的旋风，处在这种时刻，一个人仿佛就能坚信自己内心的万里无云……） #line:AudienceC_17
+你：（一时惊讶地有些说不出话来）额，大概就是互相存的有电话号码的关系嘛，不过我其实对她没什么印象了。 #line:AudienceC_18
+哲学家：所以她甚至会请求你这种人帮忙吗？ #line:AudienceC_19
+你：她可没有请求我，她强装着世界上没有能够让她畏惧的东西，轻飘飘地说着一切随我的心情啊，看来我的心情——其实很不错？ #line:AudienceC_20
+哲学家：关于门口、火苗的那句话，她有解释吗？ #line:AudienceC_21
+===
+
+title: C0
+---
+你：她说你应该懂得啊，我们该不是互相误会认错人了吧，噢不，你们两个经由我互相误认了。 #line:C0_0
+哲学家：她在找人，而我也在等人……其实大概率是真的。 #line:C0_1
+你：真假似乎不那么重要嘛。就像关于火光那句话，她解释为希望的消失之类的，还说不需要希望，只用相信。她那么相信谜语一定会被解开，看来也要失望了啊。（你总是忍不住要把这后一句说出来） #line:C0_2
+哲学家：相信吗？我，确实是让她失望了呀。 #line:C0_3
+（一个迟到进场的男人匆匆忙忙穿过楼梯落座在不远处，他笨拙地挤过座椅时，提着的包裹装来撞去，你忍不住轻蔑地冷哼了一声，她却望着这个跌跌撞撞一路经过眼前的人若有所思） #line:C0_4
+你：你对音乐很感兴趣吗？一个人也要来听。 #line:C0_5
+哲学家：兴趣一般，我本来不是为了自己来到这里的……那个，请问我能借您的手机给她回拨吗？ #line:C0_6
+（好吧，至少你的无药可救不屑于通过这么浅显的方式表露，你绕过了一大圈，倒是还在暗暗期待着助人为乐嘛。） #line:C0_7
+（你翻出来电号码，把手机交给了她） #line:C0_8
+（她的手指上有创可贴） #line:C0_9
+…… #line:C0_10
+哲学家：那似乎是个公共电话亭。（她把手机递了回来）谢谢你。（微笑，低头，落寞，得体。她这句话的语气听起来大于等于基本礼貌，就像音乐一样。） #line:C0_11
+你：（感到莫名被羞辱了一顿，在这具陌生又熟悉的身体里，你忽然觉得要是自己一点忙都帮不上，那真是不可容忍。）你需要钱吗？ #line:C0_12
+（你打开钱包掏了一些内容出来） #line:C0_13
+哲学家：（错愕皱起眉头）不，不，您和未命名之间的关系大概的确非同一般，我不该怀疑这点，但是这绝对不是我该向您无端索取的依据，而且我打心里认为，这绝对是不可能真正在任何程度上帮到一个人的…… #line:C0_14
+（她越说越快，甚至有些生气，你觉得自己在邻座几个人讶异的目光中攥着一把钞票简直是个小丑） #line:C0_15
+（她回过头去，交叉双臂，身子缩得紧紧的，与此同时，掌声响起，乐团开始入场，你觉得后面的演出都是对你的嘲笑。） #line:C0_16
+===
+
+title: C1
+---
+你：我倒是想听听你的解释，毕竟那人说了该由你来解谜呀。 #line:C1_0
+哲学家：那我一时之间的确还没有头绪…… #line:C1_1
+你：说些让人摸不着头脑的话，当真是永远时髦的事情啊，不过要是像老年人一样，每一句话都可以被提前预测，那又太无聊了，所以即便闹出了现在这样的笑话，也不怪你们——古往今来，世界上的老年人说的，都是同一句话啊…… #line:C1_2
+哲学家：只不过是丢失了勇气而已，你们那些话，我们要是想说，一瞬间就能学会。 #line:C1_3
+旁白：你本来把自己安安稳稳地放在了“你们”和“老年人”之间，那个取巧的位置上，没想到这孩子直接无视了你避免责任的措辞习惯，这孩子的世界，完全是非分明呐。你没法辩驳，不是吗， #line:C1_4
+勇气是离你最遥远的天体，你早就没有依靠它微弱的引力运转了。 #line:C1_5
+被人说中之后升起的无比寂寥，是你赖以维生的甜蜜品德。 #line:C1_6
+你：“后门的火苗”……我现在开始温习的话，罪疚大概也洗刷不干净了吧。 #line:C1_7
+哲学家：不从你拐弯抹角的定义出发，那句话很显然只是一个约定暗号嘛。 #line:C1_8
+你：所以你忘记了？ #line:C1_9
+哲学家：大概也有可能回忆起来，我没有可以直接和未命名说上话的运气，现在我只能准备去迎接必然的事情了。 #line:C1_10
+你：比如丢下她一个人来享受音乐？ #line:C1_11
+哲学家：你激怒不了我的，没有她我是不会来到这里的，等着吧，搞不好她一会儿又出现了呢？ #line:C1_12
+你：出现？打个电话去问问她怎么样？拿我的手机？（你简直是在没话找话地哀求） #line:C1_13
+哲学家：不，我确实搞忘了，这是我应该负责的事情。 #line:C1_14
+你：你也很自恋，哈哈，你要的并不是解决问题……（你一旦抓住机会，就立刻跳起来反咬一口，这就是所有哀求的本质。） #line:C1_15
+哲学家：你确实是，帮不到我的，我…… #line:C1_16
+（掌声响起，乐团入场，打断了她有些动摇的话语，而你，坐在胜利者的座位上，被自己的悔恨折磨得要死，感觉如何呢？可惜了，还有音乐能拿来给你分神……） #line:C1_17
+===
+
+title: Transition
+---
+“即使这不是真正的最完美的现实，却是令我揪心的现实啊。”——川端康成《舞姬》 #line:Transition_0
+===
+
+title: Concert
+---
+等待填入 #line:Concert_0
+===
+
+title: Photo
+---
+等待填入 #line:Photo_0
+===
+
+title: MotelTalk
+---
+等待填入 #line:MotelTalk_0
+===
+
+title: DinerTalk
+---
+等待填入 #line:DinerTalk_0
+===
+
+title: ClassroomTalk
+---
+等待填入 #line:ClassroomTalk_0
+===
+
+title: ReturnTalk
+---
+等待填入 #line:ReturnTalk_0
+===
+
+title: FinalTalk
+---
+等待填入 #line:FinalTalk_0
+===
+
+title: Ending1
+---
+等待填入 #line:Ending1_0
+===
+
+title: Ending2
+---
+等待填入 #line:Ending2_0
+===
+
+title: Ending3
+---
+等待填入 #line:Ending3_0
+===
+
+title: Item_ticket_Hall
+---
+等待填入 #line:Item_ticket_Hall_0
+===
+
+title: Item_ticket_Motel
+---
+等待填入 #line:Item_ticket_Motel_0
+===
+
+title: Item_ticket_Diner
+---
+等待填入 #line:Item_ticket_Diner_0
+===
+
+title: Item_ticket_Classroom
+---
+等待填入 #line:Item_ticket_Classroom_0
+===
+
+title: Item_magazine_Hall
+---
+等待填入 #line:Item_magazine_Hall_0
+===
+
+title: Item_magazine_Motel
+---
+等待填入 #line:Item_magazine_Motel_0
+===
+
+title: Item_magazine_Diner
+---
+等待填入 #line:Item_magazine_Diner_0
+===
+
+title: Item_magazine_Classroom
+---
+等待填入 #line:Item_magazine_Classroom_0
+===
+
+title: Item_alcohol_Hall
+---
+等待填入 #line:Item_alcohol_Hall_0
+===
+
+title: Item_alcohol_Motel
+---
+等待填入 #line:Item_alcohol_Motel_0
+===
+
+title: Item_alcohol_Diner
+---
+等待填入 #line:Item_alcohol_Diner_0
+===
+
+title: Item_alcohol_Classroom
+---
+等待填入 #line:Item_alcohol_Classroom_0
+===
+
+title: Item_key_Hall
+---
+等待填入 #line:Item_key_Hall_0
+===
+
+title: Item_key_Motel
+---
+等待填入 #line:Item_key_Motel_0
+===
+
+title: Item_key_Diner
+---
+等待填入 #line:Item_key_Diner_0
+===
+
+title: Item_key_Classroom
+---
+等待填入 #line:Item_key_Classroom_0
+===
+
+title: Item_book_Hall
+---
+等待填入 #line:Item_book_Hall_0
+===
+
+title: Item_book_Motel
+---
+等待填入 #line:Item_book_Motel_0
+===
+
+title: Item_book_Diner
+---
+等待填入 #line:Item_book_Diner_0
+===
+
+title: Item_book_Classroom
+---
+等待填入 #line:Item_book_Classroom_0
+===
+
+title: Item_receipt_Hall
+---
+等待填入 #line:Item_receipt_Hall_0
+===
+
+title: Item_receipt_Motel
+---
+等待填入 #line:Item_receipt_Motel_0
+===
+
+title: Item_receipt_Diner
+---
+等待填入 #line:Item_receipt_Diner_0
+===
+
+title: Item_receipt_Classroom
+---
+等待填入 #line:Item_receipt_Classroom_0
+===
+
+title: Item_ribbon_Hall
+---
+等待填入 #line:Item_ribbon_Hall_0
+===
+
+title: Item_ribbon_Motel
+---
+等待填入 #line:Item_ribbon_Motel_0
+===
+
+title: Item_ribbon_Diner
+---
+等待填入 #line:Item_ribbon_Diner_0
+===
+
+title: Item_ribbon_Classroom
+---
+等待填入 #line:Item_ribbon_Classroom_0
+===
+
+title: Item_note_Hall
+---
+等待填入 #line:Item_note_Hall_0
+===
+
+title: Item_note_Motel
+---
+等待填入 #line:Item_note_Motel_0
+===
+
+title: Item_note_Diner
+---
+等待填入 #line:Item_note_Diner_0
+===
+
+title: Item_note_Classroom
+---
+等待填入 #line:Item_note_Classroom_0
+===
+
+title: Item_cup_Hall
+---
+等待填入 #line:Item_cup_Hall_0
+===
+
+title: Item_cup_Motel
+---
+等待填入 #line:Item_cup_Motel_0
+===
+
+title: Item_cup_Diner
+---
+等待填入 #line:Item_cup_Diner_0
+===
+
+title: Item_cup_Classroom
+---
+等待填入 #line:Item_cup_Classroom_0
+===
+
+title: Item_letter_Hall
+---
+等待填入 #line:Item_letter_Hall_0
+===
+
+title: Item_letter_Motel
+---
+等待填入 #line:Item_letter_Motel_0
+===
+
+title: Item_letter_Diner
+---
+等待填入 #line:Item_letter_Diner_0
+===
+
+title: Item_letter_Classroom
+---
+等待填入 #line:Item_letter_Classroom_0
+===
+
+title: View_Hall
+---
+等待填入 #line:View_Hall_0
+===
+
+title: Egg_Hall
+---
+等待填入 #line:Egg_Hall_0
+===
+
+title: View_Motel
+---
+等待填入 #line:View_Motel_0
+===
+
+title: Egg_Motel
+---
+等待填入 #line:Egg_Motel_0
+===
+
+title: View_Diner
+---
+等待填入 #line:View_Diner_0
+===
+
+title: Egg_Diner
+---
+等待填入 #line:Egg_Diner_0
+===
+
+title: View_Classroom
+---
+等待填入 #line:View_Classroom_0
+===
+
+title: Egg_Classroom
+---
+等待填入 #line:Egg_Classroom_0
+===

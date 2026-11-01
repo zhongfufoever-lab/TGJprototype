@@ -1,0 +1,46 @@
+# Unity-generated caches and local state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Generated players, screenshots, test output, and local recovery snapshots
+/[Bb]uild/
+/[Bb]uilds/
+/Backups/
+/Captures/
+/TestResults/
+
+# IDE-generated files
+/.vs/
+/.idea/
+/.vscode/
+/*.csproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+/*.opendb
+/*.VC.db
+
+# Editor and machine-specific files
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+/sysinfo.txt
+/crash.dmp
+/Assets/AssetStoreTools*
+/Assets/**/Editor/JetBrains*
+.env
+.env.*
+!.env.example

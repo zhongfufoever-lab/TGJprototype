@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "reference": "Reference/selected_2C.png",
+  "reference_type": "generated_flat_concept_not_layered_source",
+  "art_files": [
+    {
+      "file": "Art/scene_concert_hall.png",
+      "original_name": "音乐厅底图.png",
+      "role": "scene",
+      "width": 2048,
+      "height": 1671,
+      "alpha_bbox_top_left_xyxy": [
+        27,
+        60,
+        1983,
+        1635
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        27,
+        36,
+        1956,
+        1575
+      ],
+      "sha256_original": "004e7e457ab2b60c32a5ee947bc53caefa778118826623ee6551b1aa5d8e91a7"
+    },
+    {
+      "file": "Art/item_phone.png",
+      "original_name": "翻盖手机(1).png",
+      "role": "inventory",
+      "width": 1920,
+      "height": 1440,
+      "alpha_bbox_top_left_xyxy": [
+        726,
+        262,
+        1093,
+        1069
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        726,
+        371,
+        367,
+        807
+      ],
+      "sha256_original": "4585abb15f8f8a4cbda5e5e25f08e42662bd127694b6bff128ffbab1048d6a24"
+    },
+    {
+      "file": "Art/item_bag_closed.png",
+      "original_name": "未打开挎包.png",
+      "role": "inventory",
+      "width": 1920,
+      "height": 1440,
+      "alpha_bbox_top_left_xyxy": [
+        233,
+        1,
+        1628,
+        1435
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        233,
+        5,
+        1395,
+        1434
+      ],
+      "sha256_original": "9b7bd96da1916212bc69ba131925d6845019dd3891411dd6d0d01c3c4eadce14"
+    },
+    {
+      "file": "Art/item_wallet_open.png",
+      "original_name": "打开的钱包(1).png",
+      "role": "inventory",
+      "width": 1920,
+      "height": 1440,
+      "alpha_bbox_top_left_xyxy": [
+        544,
+        345,
+        1456,
+        1089
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        544,
+        351,
+        912,
+        744
+      ],
+      "sha256_original": "b4c5670dc5695a5dab962da3ee86d978fe53adf184c42ef2056c9c519bd5746b"
+    },
+    {
+      "file": "Art/item_book.png",
+      "original_name": "书籍(1).png",
+      "role": "inventory",
+      "width": 1920,
+      "height": 1440,
+      "alpha_bbox_top_left_xyxy": [
+        643,
+        212,
+        1280,
+        1161
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        643,
+        279,
+        637,
+        949
+      ],
+      "sha256_original": "0d0cd4d2f71e3115b674d30fb0bb984b000809a1b0160201cef22347b8aed365"
+    },
+    {
+      "file": "Art/item_key.png",
+      "original_name": "钥匙(1).png",
+      "role": "inventory",
+      "width": 1920,
+      "height": 1440,
+      "alpha_bbox_top_left_xyxy": [
+        762,
+        389,
+        1243,
+        997
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        762,
+        443,
+        481,
+        608
+      ],
+      "sha256_original": "66b9bc472c331a289c86d2edd45f708ae77b99ad271ba77ba082c247c55f03a7"
+    },
+    {
+      "file": "Art/item_ticket.png",
+      "original_name": "音乐会门票(1).png",
+      "role": "inventory",
+      "width": 1920,
+      "height": 1440,
+      "alpha_bbox_top_left_xyxy": [
+        531,
+        500,
+        1397,
+        833
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        531,
+        607,
+        866,
+        333
+      ],
+      "sha256_original": "994889b2f31a935fea4043dbb1af6c44f3efc981f6481cb1f35927e8ec0e625b"
+    },
+    {
+      "file": "Art/item_bag_open.png",
+      "original_name": "打开挎包.PNG",
+      "role": "extra",
+      "width": 1920,
+      "height": 1440,
+      "alpha_bbox_top_left_xyxy": [
+        0,
+        0,
+        1866,
+        1440
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        0,
+        0,
+        1866,
+        1440
+      ],
+      "sha256_original": "230a492efc3bf969164e42a1f79b40185ba7ee72fc5eae53e943ce9b9a8e8b86"
+    },
+    {
+      "file": "Art/item_alcohol.png",
+      "original_name": "消毒酒精(1).png",
+      "role": "extra",
+      "width": 1920,
+      "height": 1440,
+      "alpha_bbox_top_left_xyxy": [
+        612,
+        506,
+        1413,
+        964
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        612,
+        476,
+        801,
+        458
+      ],
+      "sha256_original": "6d285aa73fecb6c7350fd0fc69fa7a47e22dae32c02ec2daffce00c9e56ade12"
+    },
+    {
+      "file": "Art/item_magazine.png",
+      "original_name": "崭新音乐杂志(2).png",
+      "role": "extra",
+      "width": 1920,
+      "height": 1440,
+      "alpha_bbox_top_left_xyxy": [
+        516,
+        104,
+        1381,
+        1334
+      ],
+      "sprite_import": {
+        "texture_type": "Sprite (2D and UI)",
+        "sprite_mode": "Single",
+        "mesh_type": "Full Rect",
+        "alpha_is_transparency": true,
+        "filter_mode": "Bilinear",
+        "mipmap": false,
+        "max_size": 2048,
+        "compression": "None for visual review"
+      },
+      "fit": "Use alpha bbox or cropped sprite rect when sizing visible art; preserve aspect, do not stretch.",
+      "unity_sprite_rect_bottom_left_xywh": [
+        516,
+        106,
+        865,
+        1230
+      ],
+      "sha256_original": "7f0d6a267589568557cfb1e922edb1840a8b1e523534a3de5162f9a81a2eb2b7"
+    }
+  ],
+  "paper_files": [
+    {
+      "file": "Textures/Paper/cardstock_teal.jpg",
+      "width": 6000,
+      "height": 4500,
+      "kind": "unaltered_real_paper_photo",
+      "usage": "Backdrop and blue-gray backing panels; apply adjustable low-chroma luminance recolor in Unity.",
+      "sha256_original": "3718d7aa3d2ac056db6dac03332156753f32e28e0230f275164251d7f10181b5"
+    },
+    {
+      "file": "Textures/Paper/ivory_crumpled.jpg",
+      "width": 6320,
+      "height": 4640,
+      "kind": "unaltered_real_paper_photo",
+      "usage": "Cream slips / portrait card / caption; crop UV region per element and mask shape in Unity.",
+      "sha256_original": "d459d1cb83b219a75b849b281e131c636bce5b1ea6376064a68dc216eb2062b0"
+    },
+    {
+      "file": "Textures/Paper/ruled_crumpled.jpg",
+      "width": 3888,
+      "height": 2592,
+      "kind": "unaltered_real_paper_photo",
+      "usage": "Dialogue notebook; maintain horizontal ruling by using aspect-correct UV cropping in Unity.",
+      "sha256_original": "78e948e70c2d5837142db1a8cfbcf07032b20a7a80602756a9643bd782520770"
+    },
+    {
+      "file": "Textures/Paper/graph.jpg",
+      "width": 5000,
+      "height": 6500,
+      "kind": "unaltered_real_paper_photo",
+      "usage": "Graph corner slips; use low-contrast indigo remap for central graph mount if suitable, or render its thin grid as independent UI layer.",
+      "sha256_original": "50396a64af60d38531bb6c56015983c2b8bea68bd85173e879741bbdeaa1b45c"
+    }
+  ],
+  "notes": [
+    "All Art PNG bytes are unchanged originals supplied by the user.",
+    "No Unity .meta files supplied: import into the current project and let Unity assign GUIDs.",
+    "UI paper edges, tints, avatar silhouette and shadows are to be assembled in Unity, not pre-extracted RGBA sprites.",
+    "Concept illustration and belongings have generation drift; original user artwork is authoritative for content and color."
+  ]
+}

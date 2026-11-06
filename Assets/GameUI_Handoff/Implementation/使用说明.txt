@@ -1,0 +1,32 @@
+无字纸张拼贴 UI · 第一阶段交付
+
+打开场景：Assets/GameUI_Handoff/Implementation/Scenes/PaperCollageStudy.unity
+复用 Prefab：Assets/GameUI_Handoff/Implementation/Prefabs/PaperCollageUIRoot.prefab
+重新构建：Tools > Game UI > Build Paper Collage Study
+切换预览：Tools > Game UI > Preview Paper Collage
+检查当前预览：Tools > Game UI > Verify Paper Collage Study
+
+构建菜单只更新 Implementation 中生成的资源和展示场景。重复执行不会堆叠 Canvas。
+有其他未保存场景时保留它们，并采用附加场景方式；本菜单不保存原有场景。
+编辑器脚本在 Editor，两个运行时图形组件在 Runtime。无新增包、Shader 或输入模块。
+
+分层：PaperCollageUIRoot > Design_1920x1080 下有 Background、TopBar、InventoryPanel、
+SceneFrame、DialoguePanel、OverlayRoot。35 个规格元素各自独立；纸面和投影也可分别选择。
+物品在 InventoryPanel/Items。全部原图保持颜色、比例与 Alpha；派生 PNG 仅裁透明边距。
+没有 Text、TMP、按钮或拖拽逻辑。原物品图片上的印刷内容保留。
+
+按追加要求，中央方格衬纸使用更深的 #182231，叠有真实皱纸的轻微明暗，网格保持低对比。
+其他纸张采用原包照片的独立颜色派生纹理；原包照片、美术和规格不改动。
+纹理与圆角纸片形状分开；圆角、轻微纸边和细网格由 UGUI Graphic 构建。
+
+实际 Unity 验证（6000.6.1f1）：
+- 已执行构建并保存独立场景和 Prefab，多次重建仍为一个 Canvas、一台相机、一盏灯。
+- 1920×1080、1280×720、1280×960 的35层坐标、尺寸、旋转、等比缩放和无裁切检查通过。
+- 1920×1080 Play 模式检查与截图通过，结束后已退出 Play，恢复1920×1080预览。
+- 59个 Graphic 均有 CanvasRenderer；装饰 raycastTarget 全部关闭。
+- 22个原包文件 SHA256 与清单一致，7张派生PNG逐RGBA像素等于原图Alpha包围盒裁切。
+- Unity无编译错误或运行错误；现有旧脚本的弃用API警告未在本轮改动。
+- 已对照选定参考检查布局。照片、原物品和原场景与合成示意存在内容差别，以原美术为准。
+
+Verification 内包含三种分辨率截图、Play截图、逐项布局报告、源素材完整性报告与重建记录。
+本轮仅完成无字静态展示；真实游戏、Yarn、存档、输入、原有场景及工程配置未由本轮代码修改。

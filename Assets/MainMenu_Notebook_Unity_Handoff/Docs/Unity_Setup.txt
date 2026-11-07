@@ -1,0 +1,152 @@
+主界面分层素材 · Unity 拼装说明
+设计基准：1920 × 1080；无文字版；uGUI / UnityEngine.UI。
+
+一、推荐：一键建立独立场景
+
+1. 先解压 ZIP。将整个素材包文件夹复制到 Unity 项目的 Assets 下。
+   例如：Assets/MainMenu_Layers/。
+   保持 Art/、Unity/、layout.json 的相对位置不变。
+   不要只复制 Editor 脚本，也不要把脚本放到 Assets 之外。
+
+2. 等待 Unity 导入并编译完成。
+   此脚本使用 Unity UI（uGUI），不依赖 TextMeshPro 或 ChineseUI 字体。
+   如果项目确实未安装 Unity UI，请在 Window > Package Manager 中安装 Unity UI。
+
+3. 在 Unity 顶部菜单选择：
+   Tools > ThatGameJam > Build Main Menu From Layers
+
+4. 素材包的 Generated/ 下会生成：
+   MainMenu_UI.unity  —— 可独立打开预览的主界面场景
+   MainMenu_UI.prefab —— Canvas 预制体，便于后续放进项目
+   再次执行时会自动使用新文件名，不覆盖之前生成的场景或 Prefab。
+   脚本以 Additive 方式新建场景，原有场景保持打开且不被修改。
+
+5. 在 Project 中双击新生成的 MainMenu_UI.unity，单独打开它，再查看 Game 视图。
+   如果 Unity 询问是否保存你原来场景的修改，请按你自己的工作情况选择。
+   不要同时预览两个主界面 Canvas 或两个 EventSystem。
+
+6. Game 视图先选 1920 × 1080 / 16:9，检查整体与预览图的关系。
+   再试一个更宽或更窄的比例：画面应该完整显示，空余区域为黑边。
+   这是固定构图的主界面；不要直接把 DesignRoot 拉伸到全屏。
+
+说明：此 Editor 脚本完成了静态检查，本次环境未安装 Unity，因此未进行真实 Unity 编译与运行。
+首次导入以你项目 Console 的结果为准。它只拼装 UI，不会改写原有游戏逻辑。
+
+二、生成后的命名与职责
+
+MainMenuCanvas
+  Canvas：Screen Space - Overlay
+  Canvas Scaler：Scale With Screen Size
+  Reference Resolution：1920 × 1080
+  Screen Match Mode：Expand
+
+LetterboxBackground
+  覆盖整个 Canvas 的黑色 Image，Raycast Target 关闭。
+
+DesignRoot
+  固定为 1920 × 1080，居中放置。
+  所有图片均放在这一层下，以 layout.json 的 order 从小到大排列。
+  Hierarchy 中靠下的图片盖住靠上的图片。
+  parent 字段用于说明归属；自动拼装保持图片平铺，避免分组改变遮挡关系。
+
+Btn_NewGame    —— 新游戏纸条
+Btn_Continue   —— 继续纸条
+Btn_Settings   —— 设置纸条
+Btn_Credits    —— 制作人员纸条
+Btn_Quit       —— 退出纸条
+
+这五个对象有 Image + Button，点击区域为各自裁切后的纸条矩形。
+装饰图片的 Raycast Target 关闭，避免挡住点击。
+按钮 Transition 默认 None，保留纸张原始颜色；Navigation 默认 None。
+Button 的 On Click() 留空，需要接入你项目已有的方法。
+需要键盘或手柄导航时，再设置 Navigation 与选中状态的视觉反馈。
+“继续”按钮是否可用，需要由你的存档逻辑设置 interactable。
+
+TitleAnchor_Empty
+  左页标题的空 RectTransform，仅作为放字位置的起点。
+  这是粗略排字区域，可以按你的标题字形继续调整。
+
+LabelAnchor_Empty
+  每个按钮下的空 RectTransform，放按钮文字用。
+  素材与生成场景本身不含标题、菜单文字、假手写字或字体资源。
+  要加字时，将项目已验证可用的 Text / TextMeshPro 组件放入这些区域，
+  再输入“孕育与诞生”“新游戏”“继续”“设置”“制作人员”“退出”。
+  文字组件的 Raycast Target 应关闭。
+
+MainMenuEventSystem
+  独立生成的场景中自带一个 EventSystem。
+  启用新 Input System 的项目使用 InputSystemUIInputModule；否则使用 StandaloneInputModule。
+  Canvas Prefab 不包含 EventSystem：把 Prefab 放进已有场景时，保留场景中已有的一个即可。
+
+三、手动拼装方法
+
+如果你想自己摆，不执行脚本也可以。直接使用 Art/ 的独立 PNG 与 layout.json。
+
+1. PNG 导入设置：
+   Texture Type：Sprite (2D and UI)
+   Sprite Mode：Single
+   Mesh Type：Full Rect
+   Alpha Is Transparency：开启
+   Generate Mip Maps：关闭
+   Wrap Mode：Clamp
+   Filter Mode：Bilinear
+   Compression：None
+   Read/Write：关闭即可
+   Sprite Border：0；Image Type：Simple
+
+2. Canvas 按上面的参数建立。创建固定 1920 × 1080 的 DesignRoot 并居中。
+   所有分层 PNG 都建为 UI > Image，而不是场景中的 Sprite Renderer。
+   Source Image 指向对应 PNG；Image 的颜色使用纯白、Alpha = 1。
+   不要调用 Set Native Size 后忽略清单尺寸：PNG 分辨率与设计尺寸可能不同。
+
+3. 每张 Image 的 RectTransform：
+   Anchor Min = Anchor Max = (0, 1)，即左上角。
+   Pivot = (0, 1)，即左上角。
+   Pos X = layout.json 的 x。
+   Pos Y = layout.json 的 y 取负数。
+   Width = width；Height = height；Scale = (1, 1, 1)；Rotation = 0。
+   例如 x = 100、y = 80，Unity 中填 Pos X = 100、Pos Y = -80。
+   这些值是设计像素，原点是 DesignRoot 的左上角，不是书的左上角。
+
+4. 按 order 由小到大排列兄弟对象，再仅给五张菜单纸条加 Button。
+   纸张本身已经有轻微歪斜和毛边，不要额外把每张图都旋转一遍。
+   阴影随各 PNG 保留，通常无需再加 Unity 的 Shadow 组件。
+   不要用原完整效果图垫在分层下方，否则移动按钮后会露出原来的重复按钮。
+
+5. 细调时优先改纸条的位置和尺寸，保留书页、纸堆与书封之间的不规则边缘。
+   如果想让点击区域更小，可在按钮下加一个带透明 Image 的小矩形作为点击区，
+   将纸条 Image 的 Raycast Target 关闭，让子物体承接射线；不要做整屏透明按钮。
+
+四、清单格式与再次生成
+
+layout.json 顶层可包含 designWidth、designHeight（默认为 1920、1080）与 layers 数组。
+每层字段：
+id          对象命名；每层唯一。
+file        相对文件路径，例如 Art/15_btn_new_game.png。
+parent      归属说明；自动拼装保持平铺到 DesignRoot。
+order       叠放顺序；每层唯一；数值越大越靠前。
+x, y        图层完整矩形的左上角坐标，包含 PNG 自带阴影与透明余量。
+width       在设计画布中的宽度。
+height      在设计画布中的高度。
+interactive 只有五个菜单纸条为 true。
+role        交互层用 new_game / continue / settings / credits / quit。
+            也识别 id = Btn_NewGame / Btn_Continue / Btn_Settings / Btn_Credits / Btn_Quit。
+
+修改清单后重新执行菜单，会生成一份新的场景与 Prefab。
+在旧场景里手动调好的位置不会自动写回清单；保留旧场景即可继续使用。
+脚本会统一调整此素材包内 PNG 的导入设置，确保透明边缘与纸张质感的显示一致。
+
+五、遇到问题时先检查
+
+菜单没有出现：等待编译结束；检查 Console 是否有其他脚本编译错误。
+图层变成白块：检查 Source Image；确认整个 Art/ 一起复制，路径未被移动。
+纸条不能点击：确认只存在一个启用的 EventSystem；检查按钮 Image 的 Raycast Target。
+点击没有切场景：这是正常的初始状态；需要给 Button > On Click() 接项目自己的方法。
+文字仍然缺字：检查你新加的字体资源；本包本身不引用 ChineseUI，也不修复项目原字体。
+书被裁掉或拉扁：恢复 DesignRoot 的固定尺寸及 Canvas Scaler 的 Expand 设置。
+Prefab 放进原场景后重叠：移除原来的重复主界面，保留一个 Canvas / EventSystem 组合。
+
+Unity 官方资料（用于后续查参数）：
+https://github.com/Unity-Technologies/uGUI/blob/main/com.unity.ugui/Documentation~/script-CanvasScaler.md
+https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterSettings-spriteMeshType.html
+https://github.com/Unity-Technologies/InputSystem/blob/develop/Packages/com.unity.inputsystem/Documentation~/introduction-ui-input-module.md

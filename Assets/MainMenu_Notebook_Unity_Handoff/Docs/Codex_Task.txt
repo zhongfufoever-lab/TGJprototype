@@ -1,0 +1,9 @@
+请在当前 Unity 项目中拼装本包主菜单。
+
+1. 素材包目录为 Assets/MainMenu_Notebook_Unity_Handoff。先读取 README_先读我.txt、Docs/Unity_Setup.txt 和 layout.json。
+2. 这是用户选定的无字手账版本，沿用其版式与低饱和配色。Art 中有 23 张独立 PNG，不能用 Reference 中的整张成图作为可交互 UI 底图。
+3. 可运行 Tools > ThatGameJam > Build Main Menu From Layers，或按 layout.json 的 order 和坐标手动创建 Image。
+4. 设计基准为 1920×1080，五个菜单纸条分别是 Btn_NewGame、Btn_Continue、Btn_Settings、Btn_Credits、Btn_Quit。装饰图不接收射线。
+5. 先保留无字状态，还原图层。随后如需加字，使用本项目中已验证可用的中文字体。不要重新引入 ChineseUI 缺失字体引用。
+6. 新建独立主菜单场景，保留已有音乐厅和旅馆场景。接入新游戏、继续、设置、制作人员和退出功能时，先检查并复用现有项目逻辑。
+7. 在 Game 视图检查透明边缘、纸条显示及按钮操作，并对照 Preview/Assembly_Preview.png。报告修改文件、可打开场景以及仍需接入的功能。

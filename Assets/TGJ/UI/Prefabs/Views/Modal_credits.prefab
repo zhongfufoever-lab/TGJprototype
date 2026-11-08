@@ -736,7 +736,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6587\u6848\uFF1A\uFF08abc\uFF09\n\n\u7A0B\u5E8F\uFF1A\uFF08abc\uFF09\n\n\u7F8E\u672F\uFF1A\uFF08abc\uFF09"
+  m_Text: "\u7B56\u5212\uFF1Axyt\n\n\u7A0B\u5E8F\uFF1Alhl\n\n\u7F8E\u672F\uFF1Axzy pumpkin"
 --- !u!114 &5054844339308088800
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "checksum_manifest": "Assets/GameUI_Handoff/SHA256SUMS.txt",
+  "asset_manifest": "Assets/GameUI_Handoff/Specs/asset_manifest.json",
+  "method": "Read-only SHA256 validation of original manifest entries and Pillow RGBA byte comparison of generated PNGs against source alpha-bounds crops; no image files were edited.",
+  "expected_original_file_count": 22,
+  "checked_original_file_count": 22,
+  "expected_derived_art_count": 7,
+  "checked_derived_art_count": 7,
+  "passed": true,
+  "conclusion": "All 22 original file hashes match and all 7 derived PNGs exactly preserve their original cropped RGBA pixels.",
+  "original_files": [
+    {
+      "path": "Assets/GameUI_Handoff/Art/item_alcohol.png",
+      "passed": true,
+      "expected_sha256": "6d285aa73fecb6c7350fd0fc69fa7a47e22dae32c02ec2daffce00c9e56ade12",
+      "actual_sha256": "6d285aa73fecb6c7350fd0fc69fa7a47e22dae32c02ec2daffce00c9e56ade12",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Art/item_bag_closed.png",
+      "passed": true,
+      "expected_sha256": "9b7bd96da1916212bc69ba131925d6845019dd3891411dd6d0d01c3c4eadce14",
+      "actual_sha256": "9b7bd96da1916212bc69ba131925d6845019dd3891411dd6d0d01c3c4eadce14",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Art/item_bag_open.png",
+      "passed": true,
+      "expected_sha256": "230a492efc3bf969164e42a1f79b40185ba7ee72fc5eae53e943ce9b9a8e8b86",
+      "actual_sha256": "230a492efc3bf969164e42a1f79b40185ba7ee72fc5eae53e943ce9b9a8e8b86",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Art/item_book.png",
+      "passed": true,
+      "expected_sha256": "0d0cd4d2f71e3115b674d30fb0bb984b000809a1b0160201cef22347b8aed365",
+      "actual_sha256": "0d0cd4d2f71e3115b674d30fb0bb984b000809a1b0160201cef22347b8aed365",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Art/item_key.png",
+      "passed": true,
+      "expected_sha256": "66b9bc472c331a289c86d2edd45f708ae77b99ad271ba77ba082c247c55f03a7",
+      "actual_sha256": "66b9bc472c331a289c86d2edd45f708ae77b99ad271ba77ba082c247c55f03a7",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Art/item_magazine.png",
+      "passed": true,
+      "expected_sha256": "7f0d6a267589568557cfb1e922edb1840a8b1e523534a3de5162f9a81a2eb2b7",
+      "actual_sha256": "7f0d6a267589568557cfb1e922edb1840a8b1e523534a3de5162f9a81a2eb2b7",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Art/item_phone.png",
+      "passed": true,
+      "expected_sha256": "4585abb15f8f8a4cbda5e5e25f08e42662bd127694b6bff128ffbab1048d6a24",
+      "actual_sha256": "4585abb15f8f8a4cbda5e5e25f08e42662bd127694b6bff128ffbab1048d6a24",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Art/item_ticket.png",
+      "passed": true,
+      "expected_sha256": "994889b2f31a935fea4043dbb1af6c44f3efc981f6481cb1f35927e8ec0e625b",
+      "actual_sha256": "994889b2f31a935fea4043dbb1af6c44f3efc981f6481cb1f35927e8ec0e625b",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Art/item_wallet_open.png",
+      "passed": true,
+      "expected_sha256": "b4c5670dc5695a5dab962da3ee86d978fe53adf184c42ef2056c9c519bd5746b",
+      "actual_sha256": "b4c5670dc5695a5dab962da3ee86d978fe53adf184c42ef2056c9c519bd5746b",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Art/scene_concert_hall.png",
+      "passed": true,
+      "expected_sha256": "004e7e457ab2b60c32a5ee947bc53caefa778118826623ee6551b1aa5d8e91a7",
+      "actual_sha256": "004e7e457ab2b60c32a5ee947bc53caefa778118826623ee6551b1aa5d8e91a7",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Prompts/01_静态页面_Codex提示词.md",
+      "passed": true,
+      "expected_sha256": "5a65d0837416d1aeb83c70eaefab7edbb140a782f7603879c2779fa7112595cc",
+      "actual_sha256": "5a65d0837416d1aeb83c70eaefab7edbb140a782f7603879c2779fa7112595cc",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Prompts/02_接入游戏_后续提示词.md",
+      "passed": true,
+      "expected_sha256": "fdb463186d35169a03dcc147c9abd2ef0303af3e74d111bd4821fe860121f5df",
+      "actual_sha256": "fdb463186d35169a03dcc147c9abd2ef0303af3e74d111bd4821fe860121f5df",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/README_先读我.md",
+      "passed": true,
+      "expected_sha256": "814733412681cc01882bee86dbe8d99eebde103bd42c943bb0d8f468fb07f0b2",
+      "actual_sha256": "814733412681cc01882bee86dbe8d99eebde103bd42c943bb0d8f468fb07f0b2",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Reference/selected_2C.png",
+      "passed": true,
+      "expected_sha256": "ed57e8e899ba4fe30ae1180b738dbbbca4b2473c683c3f6ae103cedbd7454536",
+      "actual_sha256": "ed57e8e899ba4fe30ae1180b738dbbbca4b2473c683c3f6ae103cedbd7454536",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/SOURCES.md",
+      "passed": true,
+      "expected_sha256": "adbda51d928f7a8cbe25e4ec797096d550ecf3bd07973d695aac09f37b571bc0",
+      "actual_sha256": "adbda51d928f7a8cbe25e4ec797096d550ecf3bd07973d695aac09f37b571bc0",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Specs/asset_manifest.json",
+      "passed": true,
+      "expected_sha256": "9d8abcfef917b80bc9fd27849269a5f305ce81e537bd05f4a80a0605020971ac",
+      "actual_sha256": "9d8abcfef917b80bc9fd27849269a5f305ce81e537bd05f4a80a0605020971ac",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Specs/layout_1920x1080.json",
+      "passed": true,
+      "expected_sha256": "265f4ee9598da0c6fd909fbc8dde3a2939db2da38d24ef6822f7c3c54fe88e1c",
+      "actual_sha256": "265f4ee9598da0c6fd909fbc8dde3a2939db2da38d24ef6822f7c3c54fe88e1c",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Specs/visual_spec.md",
+      "passed": true,
+      "expected_sha256": "c5e43d2e5017de7aaf84da4b06b925eb3942929d03c98c0d47a260eff17fb08a",
+      "actual_sha256": "c5e43d2e5017de7aaf84da4b06b925eb3942929d03c98c0d47a260eff17fb08a",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Textures/Paper/cardstock_teal.jpg",
+      "passed": true,
+      "expected_sha256": "3718d7aa3d2ac056db6dac03332156753f32e28e0230f275164251d7f10181b5",
+      "actual_sha256": "3718d7aa3d2ac056db6dac03332156753f32e28e0230f275164251d7f10181b5",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Textures/Paper/graph.jpg",
+      "passed": true,
+      "expected_sha256": "50396a64af60d38531bb6c56015983c2b8bea68bd85173e879741bbdeaa1b45c",
+      "actual_sha256": "50396a64af60d38531bb6c56015983c2b8bea68bd85173e879741bbdeaa1b45c",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Textures/Paper/ivory_crumpled.jpg",
+      "passed": true,
+      "expected_sha256": "d459d1cb83b219a75b849b281e131c636bce5b1ea6376064a68dc216eb2062b0",
+      "actual_sha256": "d459d1cb83b219a75b849b281e131c636bce5b1ea6376064a68dc216eb2062b0",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Textures/Paper/ruled_crumpled.jpg",
+      "passed": true,
+      "expected_sha256": "78e948e70c2d5837142db1a8cfbcf07032b20a7a80602756a9643bd782520770",
+      "actual_sha256": "78e948e70c2d5837142db1a8cfbcf07032b20a7a80602756a9643bd782520770",
+      "conclusion": "Original file SHA256 matches the supplied checksum manifest."
+    }
+  ],
+  "derived_art": [
+    {
+      "path": "Assets/GameUI_Handoff/Implementation/Generated/Art/item_bag_closed.png",
+      "source_path": "Assets/GameUI_Handoff/Art/item_bag_closed.png",
+      "alpha_bbox_top_left_xyxy": [
+        233,
+        1,
+        1628,
+        1435
+      ],
+      "expected_size": [
+        1395,
+        1434
+      ],
+      "actual_size": [
+        1395,
+        1434
+      ],
+      "passed": true,
+      "conclusion": "Dimensions and every RGBA byte exactly match the original alpha-bounds crop, including RGB in transparent pixels."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Implementation/Generated/Art/item_book.png",
+      "source_path": "Assets/GameUI_Handoff/Art/item_book.png",
+      "alpha_bbox_top_left_xyxy": [
+        643,
+        212,
+        1280,
+        1161
+      ],
+      "expected_size": [
+        637,
+        949
+      ],
+      "actual_size": [
+        637,
+        949
+      ],
+      "passed": true,
+      "conclusion": "Dimensions and every RGBA byte exactly match the original alpha-bounds crop, including RGB in transparent pixels."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Implementation/Generated/Art/item_key.png",
+      "source_path": "Assets/GameUI_Handoff/Art/item_key.png",
+      "alpha_bbox_top_left_xyxy": [
+        762,
+        389,
+        1243,
+        997
+      ],
+      "expected_size": [
+        481,
+        608
+      ],
+      "actual_size": [
+        481,
+        608
+      ],
+      "passed": true,
+      "conclusion": "Dimensions and every RGBA byte exactly match the original alpha-bounds crop, including RGB in transparent pixels."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Implementation/Generated/Art/item_phone.png",
+      "source_path": "Assets/GameUI_Handoff/Art/item_phone.png",
+      "alpha_bbox_top_left_xyxy": [
+        726,
+        262,
+        1093,
+        1069
+      ],
+      "expected_size": [
+        367,
+        807
+      ],
+      "actual_size": [
+        367,
+        807
+      ],
+      "passed": true,
+      "conclusion": "Dimensions and every RGBA byte exactly match the original alpha-bounds crop, including RGB in transparent pixels."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Implementation/Generated/Art/item_ticket.png",
+      "source_path": "Assets/GameUI_Handoff/Art/item_ticket.png",
+      "alpha_bbox_top_left_xyxy": [
+        531,
+        500,
+        1397,
+        833
+      ],
+      "expected_size": [
+        866,
+        333
+      ],
+      "actual_size": [
+        866,
+        333
+      ],
+      "passed": true,
+      "conclusion": "Dimensions and every RGBA byte exactly match the original alpha-bounds crop, including RGB in transparent pixels."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Implementation/Generated/Art/item_wallet_open.png",
+      "source_path": "Assets/GameUI_Handoff/Art/item_wallet_open.png",
+      "alpha_bbox_top_left_xyxy": [
+        544,
+        345,
+        1456,
+        1089
+      ],
+      "expected_size": [
+        912,
+        744
+      ],
+      "actual_size": [
+        912,
+        744
+      ],
+      "passed": true,
+      "conclusion": "Dimensions and every RGBA byte exactly match the original alpha-bounds crop, including RGB in transparent pixels."
+    },
+    {
+      "path": "Assets/GameUI_Handoff/Implementation/Generated/Art/scene_concert_hall.png",
+      "source_path": "Assets/GameUI_Handoff/Art/scene_concert_hall.png",
+      "alpha_bbox_top_left_xyxy": [
+        27,
+        60,
+        1983,
+        1635
+      ],
+      "expected_size": [
+        1956,
+        1575
+      ],
+      "actual_size": [
+        1956,
+        1575
+      ],
+      "passed": true,
+      "conclusion": "Dimensions and every RGBA byte exactly match the original alpha-bounds crop, including RGB in transparent pixels."
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "note": "PNG原样复制，未裁剪或重新绘制。alpha_bbox_top_left为左上原点、右下不包含；sprite_rect_unity为Unity左下原点。详情图不自动启用。",
+  "assets": [
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Room/room_lights_on.png",
+      "original": "旅馆房间内/房间开灯.png",
+      "role": "中央场景：默认开灯版",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        79,
+        99,
+        1788,
+        1412
+      ],
+      "sprite_rect_unity": {
+        "x": 79,
+        "y": 28,
+        "width": 1709,
+        "height": 1313
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Room/room_lights_off.png",
+      "original": "旅馆房间内/房间关灯.png",
+      "role": "可选关灯版，不默认新增切换按钮",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        79,
+        99,
+        1788,
+        1412
+      ],
+      "sprite_rect_unity": {
+        "x": 79,
+        "y": 28,
+        "width": 1709,
+        "height": 1313
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Props/violin_case.png",
+      "original": "旅馆房间内/房间互动物品拆分/小提琴琴盒.png",
+      "role": "背包左上",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        417,
+        724,
+        702,
+        859
+      ],
+      "sprite_rect_unity": {
+        "x": 417,
+        "y": 581,
+        "width": 285,
+        "height": 135
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Props/beer.png",
+      "original": "旅馆房间内/房间互动物品拆分/啤酒.png",
+      "role": "背包右上：两瓶与小罐为一组",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        960,
+        656,
+        1013,
+        727
+      ],
+      "sprite_rect_unity": {
+        "x": 960,
+        "y": 713,
+        "width": 53,
+        "height": 71
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Props/coat.png",
+      "original": "旅馆房间内/房间互动物品拆分/地上的外套.png",
+      "role": "背包左中",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        79,
+        1012,
+        462,
+        1319
+      ],
+      "sprite_rect_unity": {
+        "x": 79,
+        "y": 121,
+        "width": 383,
+        "height": 307
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Props/open_suitcase.png",
+      "original": "旅馆房间内/房间互动物品拆分/打开的行李箱.png",
+      "role": "背包右中：确认稿中处于选中状态",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        1070,
+        830,
+        1536,
+        1090
+      ],
+      "sprite_rect_unity": {
+        "x": 1070,
+        "y": 350,
+        "width": 466,
+        "height": 260
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Props/music_score.png",
+      "original": "旅馆房间内/房间互动物品拆分/乐谱.png",
+      "role": "背包左下",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        1013,
+        643,
+        1087,
+        747
+      ],
+      "sprite_rect_unity": {
+        "x": 1013,
+        "y": 693,
+        "width": 74,
+        "height": 104
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Props/biscuit_tin.png",
+      "original": "旅馆房间内/房间互动物品拆分/饼干盒.png",
+      "role": "背包右下",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        1597,
+        816,
+        1717,
+        888
+      ],
+      "sprite_rect_unity": {
+        "x": 1597,
+        "y": 552,
+        "width": 120,
+        "height": 72
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Props/shoulder_bag.png",
+      "original": "旅馆房间内/房间互动物品拆分/之前的挎包.png",
+      "role": "房间互动备用素材",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        1613,
+        709,
+        1780,
+        878
+      ],
+      "sprite_rect_unity": {
+        "x": 1613,
+        "y": 562,
+        "width": 167,
+        "height": 169
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Props/briefcase.png",
+      "original": "旅馆房间内/房间互动物品拆分/公文包.png",
+      "role": "原包提供的备用素材，与shoulder_bag内容相同",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        1613,
+        709,
+        1780,
+        878
+      ],
+      "sprite_rect_unity": {
+        "x": 1613,
+        "y": 562,
+        "width": 167,
+        "height": 169
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Details/suitcase_detail.png",
+      "original": "旅馆房间内/打开的行李箱.png",
+      "role": "可选行李箱详情原图",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        0,
+        0,
+        1915,
+        1440
+      ],
+      "sprite_rect_unity": {
+        "x": 0,
+        "y": 0,
+        "width": 1915,
+        "height": 1440
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Details/notebook_in_suitcase.png",
+      "original": "旅馆房间内/打开行李箱里的笔记本.png",
+      "role": "可选笔记本详情原图",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        476,
+        908,
+        938,
+        1192
+      ],
+      "sprite_rect_unity": {
+        "x": 476,
+        "y": 248,
+        "width": 462,
+        "height": 284
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Details/notebook_open.png",
+      "original": "旅馆房间内/笔记本拆分/打开笔记本.png",
+      "role": "可选打开笔记本原图",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        239,
+        183,
+        1522,
+        1312
+      ],
+      "sprite_rect_unity": {
+        "x": 239,
+        "y": 128,
+        "width": 1283,
+        "height": 1129
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Details/notebook_with_photo.png",
+      "original": "旅馆房间内/笔记本拆分/笔记本里有照片的样子.png",
+      "role": "可选笔记本含照片原图",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        239,
+        183,
+        1625,
+        1312
+      ],
+      "sprite_rect_unity": {
+        "x": 239,
+        "y": 128,
+        "width": 1386,
+        "height": 1129
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Details/photo.png",
+      "original": "旅馆房间内/笔记本拆分/照片拆分.png",
+      "role": "可选照片原图",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        960,
+        251,
+        1625,
+        1033
+      ],
+      "sprite_rect_unity": {
+        "x": 960,
+        "y": 407,
+        "width": 665,
+        "height": 782
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Details/group_photo_detail.png",
+      "original": "旅馆房间内/笔记本拆分/合影详情.png",
+      "role": "可选合影详情原图",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        739,
+        218,
+        1509,
+        1040
+      ],
+      "sprite_rect_unity": {
+        "x": 739,
+        "y": 400,
+        "width": 770,
+        "height": 822
+      }
+    },
+    {
+      "path": "Assets/ThatGameJam2026/Scene2Motel/Art/Details/daffodil.png",
+      "original": "水仙花.png",
+      "role": "备用原始素材",
+      "canvas_size": [
+        1920,
+        1440
+      ],
+      "alpha_bbox_top_left": [
+        376,
+        18,
+        1309,
+        1412
+      ],
+      "sprite_rect_unity": {
+        "x": 376,
+        "y": 28,
+        "width": 933,
+        "height": 1394
+      }
+    }
+  ]
+}

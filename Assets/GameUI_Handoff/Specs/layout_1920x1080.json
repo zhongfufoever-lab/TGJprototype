@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "layout_status": "approximate_manual_measurement_of_selected_concept",
+  "reference_resolution": [
+    1920,
+    1080
+  ],
+  "reference_image_size": [
+    1672,
+    941
+  ],
+  "coordinate_system": "top_left_xywh_in_reference_pixels",
+  "unity_rect_transform": {
+    "anchorMin": [
+      0,
+      1
+    ],
+    "anchorMax": [
+      0,
+      1
+    ],
+    "pivot": [
+      0,
+      1
+    ],
+    "anchoredPosition": "(x, -y)",
+    "sizeDelta": "(w, h)"
+  },
+  "scale_policy": "Keep one centered 16:9 design root and fit uniformly; pillarbox or letterbox other aspect ratios.",
+  "palette": {
+    "outer_indigo": "#242C3B",
+    "graph_ink_blue": "#293448",
+    "backing_sage_bluegray": "#77898D",
+    "paper_oatmeal": "#E2DFD2",
+    "accent_fog_lilac": "#B0A3BB",
+    "secondary_sage": "#A5B4A6",
+    "avatar_slate_teal": "#4B686E",
+    "tiny_straw": "#D9C8A0"
+  },
+  "layers": [
+    {
+      "id": "background",
+      "semantic_path": "BackgroundPaper",
+      "rect_xywh": [
+        0.5,
+        0.0,
+        1919.0,
+        1080.0
+      ],
+      "asset": "Textures/Paper/cardstock_teal.jpg",
+      "material_role": "paper_cardstock",
+      "palette_key": "outer_indigo",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "top_divider",
+      "semantic_path": "Header/Divider",
+      "rect_xywh": [
+        41.8,
+        66.6,
+        1854.7,
+        2.3
+      ],
+      "asset": null,
+      "material_role": "ui_line",
+      "palette_key": "paper_oatmeal",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "header_dot",
+      "semantic_path": "Header/Dot",
+      "rect_xywh": [
+        44.1,
+        25.2,
+        20.7,
+        20.7
+      ],
+      "asset": null,
+      "material_role": "ui_disc",
+      "palette_key": "tiny_straw",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "location_slip",
+      "semantic_path": "Header/LocationSlip",
+      "rect_xywh": [
+        80.9,
+        16.1,
+        172.2,
+        36.7
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_label",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "time_slip",
+      "semantic_path": "Header/TimeSlip",
+      "rect_xywh": [
+        304.7,
+        23.0,
+        84.9,
+        27.5
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_label",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "header_accent",
+      "semantic_path": "Header/Accent",
+      "rect_xywh": [
+        79.7,
+        64.3,
+        135.4,
+        11.5
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "accent_fog_lilac",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "nav_settings",
+      "semantic_path": "Header/Settings",
+      "rect_xywh": [
+        1269.9,
+        19.5,
+        90.7,
+        28.7
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_button",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "nav_map",
+      "semantic_path": "Header/Map",
+      "rect_xywh": [
+        1405.3,
+        21.8,
+        55.1,
+        26.4
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_button",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "nav_archive",
+      "semantic_path": "Header/Archive",
+      "rect_xywh": [
+        1502.9,
+        21.8,
+        86.1,
+        25.2
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_button",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "nav_save_load",
+      "semantic_path": "Header/SaveLoad",
+      "rect_xywh": [
+        1629.1,
+        20.7,
+        121.7,
+        28.7
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_button",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "nav_main_menu",
+      "semantic_path": "Header/MainMenu",
+      "rect_xywh": [
+        1779.5,
+        20.7,
+        119.4,
+        28.7
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_button",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "inventory_backing",
+      "semantic_path": "Inventory/Backing",
+      "rect_xywh": [
+        15.4,
+        104.4,
+        328.2,
+        922.8
+      ],
+      "asset": "Textures/Paper/cardstock_teal.jpg",
+      "material_role": "paper_cardstock",
+      "palette_key": "backing_sage_bluegray",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 48
+    },
+    {
+      "id": "inventory_title",
+      "semantic_path": "Inventory/TitleSlip",
+      "rect_xywh": [
+        59.0,
+        127.4,
+        150.4,
+        41.3
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_label",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "memories_tab",
+      "semantic_path": "Inventory/MemoriesTab",
+      "rect_xywh": [
+        52.2,
+        190.5,
+        142.3,
+        37.9
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "accent_fog_lilac",
+      "role": "future_button",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "collectibles_tab",
+      "semantic_path": "Inventory/CollectiblesTab",
+      "rect_xywh": [
+        207.1,
+        192.8,
+        105.6,
+        33.3
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_button",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "selected_tab_line",
+      "semantic_path": "Inventory/SelectedLine",
+      "rect_xywh": [
+        53.3,
+        238.7,
+        133.1,
+        10.3
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "secondary_sage",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "inventory_caption",
+      "semantic_path": "Inventory/CaptionSlip",
+      "rect_xywh": [
+        37.2,
+        878.0,
+        288.1,
+        107.9
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_label",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 23
+    },
+    {
+      "id": "phone",
+      "semantic_path": "Inventory/Items/Phone",
+      "rect_xywh": [
+        70.5,
+        282.3,
+        71.2,
+        161.8
+      ],
+      "asset": "Art/item_phone.png",
+      "material_role": "original_art",
+      "palette_key": null,
+      "role": "future_draggable",
+      "raycast_target": false,
+      "art_fit": "contain_alpha_bbox",
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "bag",
+      "semantic_path": "Inventory/Items/Bag",
+      "rect_xywh": [
+        168.1,
+        289.2,
+        144.6,
+        151.5
+      ],
+      "asset": "Art/item_bag_closed.png",
+      "material_role": "original_art",
+      "palette_key": null,
+      "role": "future_draggable",
+      "raycast_target": false,
+      "art_fit": "contain_alpha_bbox",
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "key",
+      "semantic_path": "Inventory/Items/Key",
+      "rect_xywh": [
+        56.7,
+        464.8,
+        79.2,
+        104.4
+      ],
+      "asset": "Art/item_key.png",
+      "material_role": "original_art",
+      "palette_key": null,
+      "role": "future_draggable",
+      "raycast_target": false,
+      "art_fit": "contain_alpha_bbox",
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "ticket",
+      "semantic_path": "Inventory/Items/Ticket",
+      "rect_xywh": [
+        179.6,
+        477.4,
+        135.4,
+        86.1
+      ],
+      "asset": "Art/item_ticket.png",
+      "material_role": "original_art",
+      "palette_key": null,
+      "role": "future_draggable",
+      "raycast_target": false,
+      "art_fit": "contain_alpha_bbox",
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "book",
+      "semantic_path": "Inventory/Items/Book",
+      "rect_xywh": [
+        47.6,
+        587.6,
+        110.2,
+        156.1
+      ],
+      "asset": "Art/item_book.png",
+      "material_role": "original_art",
+      "palette_key": null,
+      "role": "future_draggable",
+      "raycast_target": false,
+      "art_fit": "contain_alpha_bbox",
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "wallet",
+      "semantic_path": "Inventory/Items/Wallet",
+      "rect_xywh": [
+        183.0,
+        610.6,
+        129.7,
+        104.4
+      ],
+      "asset": "Art/item_wallet_open.png",
+      "material_role": "original_art",
+      "palette_key": null,
+      "role": "future_draggable",
+      "raycast_target": false,
+      "art_fit": "contain_alpha_bbox",
+      "notes": [
+        "Only an open wallet original exists. Use that, rather than copying the generated closed-wallet substitute."
+      ],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "graph_corner_top",
+      "semantic_path": "Scene/TopCorner",
+      "rect_xywh": [
+        374.7,
+        114.8,
+        344.3,
+        166.4
+      ],
+      "asset": "Textures/Paper/graph.jpg",
+      "material_role": "paper_graph",
+      "palette_key": "paper_oatmeal",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0,
+      "rotation_degrees_clockwise": 7
+    },
+    {
+      "id": "graph_corner_bottom",
+      "semantic_path": "Scene/BottomCorner",
+      "rect_xywh": [
+        1028.9,
+        814.9,
+        306.4,
+        137.7
+      ],
+      "asset": "Textures/Paper/graph.jpg",
+      "material_role": "paper_graph",
+      "palette_key": "paper_oatmeal",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0,
+      "rotation_degrees_clockwise": 5
+    },
+    {
+      "id": "graph_mount",
+      "semantic_path": "Scene/GraphMount",
+      "rect_xywh": [
+        358.6,
+        134.3,
+        1011.1,
+        812.6
+      ],
+      "asset": "Textures/Paper/graph.jpg",
+      "material_role": "paper_graph",
+      "palette_key": "graph_ink_blue",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "concert_hall",
+      "semantic_path": "Scene/ConcertHall",
+      "rect_xywh": [
+        445.8,
+        181.3,
+        906.7,
+        732.2
+      ],
+      "asset": "Art/scene_concert_hall.png",
+      "material_role": "original_art",
+      "palette_key": null,
+      "role": "scene_art",
+      "raycast_target": false,
+      "art_fit": "contain_alpha_bbox",
+      "notes": [
+        "Use the original concert hall intact, contain-fit to the visible bounding box; no stretch, no global tint."
+      ],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "dialogue_backing",
+      "semantic_path": "Dialogue/Backing",
+      "rect_xywh": [
+        1383.5,
+        102.1,
+        523.4,
+        929.6
+      ],
+      "asset": "Textures/Paper/cardstock_teal.jpg",
+      "material_role": "paper_cardstock",
+      "palette_key": "backing_sage_bluegray",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 48
+    },
+    {
+      "id": "dialogue_notebook",
+      "semantic_path": "Dialogue/RuledPaper",
+      "rect_xywh": [
+        1406.5,
+        125.1,
+        485.5,
+        889.5
+      ],
+      "asset": "Textures/Paper/ruled_crumpled.jpg",
+      "material_role": "paper_ruled",
+      "palette_key": "paper_oatmeal",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 32
+    },
+    {
+      "id": "dialogue_title",
+      "semantic_path": "Dialogue/TitleSlip",
+      "rect_xywh": [
+        1437.4,
+        120.5,
+        141.2,
+        40.2
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "future_label",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "portrait_card",
+      "semantic_path": "Dialogue/PortraitCard",
+      "rect_xywh": [
+        1435.2,
+        173.3,
+        428.1,
+        125.1
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "paper_oatmeal",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 23
+    },
+    {
+      "id": "avatar_tile",
+      "semantic_path": "Dialogue/AvatarTile",
+      "rect_xywh": [
+        1465.0,
+        195.1,
+        83.8,
+        83.8
+      ],
+      "asset": null,
+      "material_role": "ui_roundrect",
+      "palette_key": "avatar_slate_teal",
+      "role": "avatar_placeholder",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 12
+    },
+    {
+      "id": "avatar_head",
+      "semantic_path": "Dialogue/AvatarHead",
+      "rect_xywh": [
+        1489.1,
+        207.7,
+        29.8,
+        29.8
+      ],
+      "asset": null,
+      "material_role": "ui_disc",
+      "palette_key": "secondary_sage",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "avatar_shoulders",
+      "semantic_path": "Dialogue/AvatarShoulders",
+      "rect_xywh": [
+        1478.8,
+        241.0,
+        52.8,
+        33.3
+      ],
+      "asset": null,
+      "material_role": "ui_roundrect",
+      "palette_key": "secondary_sage",
+      "role": "decor",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    },
+    {
+      "id": "choice_strip",
+      "semantic_path": "Dialogue/ChoiceStrip",
+      "rect_xywh": [
+        1423.7,
+        666.8,
+        455.6,
+        60.8
+      ],
+      "asset": "Textures/Paper/ivory_crumpled.jpg",
+      "material_role": "paper_ivory",
+      "palette_key": "accent_fog_lilac",
+      "role": "future_button",
+      "raycast_target": false,
+      "art_fit": null,
+      "notes": [],
+      "corner_radius_px": 0
+    }
+  ],
+  "reserved_regions": [
+    {
+      "name": "dialogue_body",
+      "rect_xywh": [
+        1441,
+        319,
+        400,
+        333
+      ],
+      "stage_1_content": "empty"
+    },
+    {
+      "name": "future_playback_controls",
+      "rect_xywh": [
+        1427,
+        938,
+        448,
+        46
+      ],
+      "stage_1_content": "empty"
+    },
+    {
+      "name": "future_modal_layer",
+      "rect_xywh": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "stage_1_content": "empty"
+    }
+  ],
+  "notes": [
+    "Layer entries use global design-root coordinates, not coordinates relative to their semantic parent paths.",
+    "Original artwork rectangles specify visible alpha-bounds, not full transparent PNG canvas.",
+    "Do not apply paper palette to original artwork.",
+    "All future label/button content is blank in stage 1.",
+    "The selected paper mount exterior is approximately 1.25:1. Do not force this decorative paper to 4:3. Any future logical scene viewport must be handled independently."
+  ]
+}

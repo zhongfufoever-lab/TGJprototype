@@ -1,0 +1,454 @@
+[
+  {
+    "file": "Art/01_book_cover.png",
+    "atlas": "cover",
+    "atlasCell": null,
+    "crop": [
+      101,
+      61,
+      1573,
+      889
+    ],
+    "width": 1472,
+    "height": 828,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/06_bound_page_spread.png",
+    "atlas": "pages",
+    "atlasCell": null,
+    "crop": [
+      50,
+      17,
+      1624,
+      929
+    ],
+    "width": 1574,
+    "height": 912,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/13_title_paper_upper.png",
+    "atlas": "large_papers",
+    "atlasCell": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "crop": [
+      21,
+      168,
+      628,
+      445
+    ],
+    "width": 607,
+    "height": 277,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/14_title_paper_lower.png",
+    "atlas": "large_papers",
+    "atlasCell": [
+      1,
+      0,
+      2,
+      2
+    ],
+    "crop": [
+      658,
+      180,
+      1224,
+      445
+    ],
+    "width": 566,
+    "height": 265,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/12_menu_backing_front.png",
+    "atlas": "large_papers",
+    "atlasCell": [
+      0,
+      1,
+      2,
+      2
+    ],
+    "crop": [
+      26,
+      654,
+      605,
+      1227
+    ],
+    "width": 579,
+    "height": 573,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/11_menu_backing_under.png",
+    "atlas": "large_papers",
+    "atlasCell": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "crop": [
+      647,
+      656,
+      1232,
+      1222
+    ],
+    "width": 585,
+    "height": 566,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/15_btn_new_game.png",
+    "atlas": "menu_buttons",
+    "atlasCell": [
+      0,
+      0,
+      1,
+      5
+    ],
+    "crop": [
+      72,
+      98,
+      950,
+      326
+    ],
+    "width": 878,
+    "height": 228,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 254
+  },
+  {
+    "file": "Art/16_btn_continue.png",
+    "atlas": "menu_buttons",
+    "atlasCell": [
+      0,
+      1,
+      1,
+      5
+    ],
+    "crop": [
+      71,
+      404,
+      954,
+      619
+    ],
+    "width": 883,
+    "height": 215,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 254
+  },
+  {
+    "file": "Art/17_btn_settings.png",
+    "atlas": "menu_buttons",
+    "atlasCell": [
+      0,
+      2,
+      1,
+      5
+    ],
+    "crop": [
+      71,
+      693,
+      951,
+      895
+    ],
+    "width": 880,
+    "height": 202,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 254
+  },
+  {
+    "file": "Art/18_btn_credits.png",
+    "atlas": "menu_buttons",
+    "atlasCell": [
+      0,
+      3,
+      1,
+      5
+    ],
+    "crop": [
+      72,
+      980,
+      952,
+      1179
+    ],
+    "width": 880,
+    "height": 199,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 254
+  },
+  {
+    "file": "Art/19_btn_quit.png",
+    "atlas": "menu_buttons",
+    "atlasCell": [
+      0,
+      4,
+      1,
+      5
+    ],
+    "crop": [
+      70,
+      1258,
+      951,
+      1459
+    ],
+    "width": 881,
+    "height": 201,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 254
+  },
+  {
+    "file": "Art/09_tape_left.png",
+    "atlas": "small_parts",
+    "atlasCell": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "crop": [
+      59,
+      175,
+      404,
+      306
+    ],
+    "width": 345,
+    "height": 131,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/08_graph_paper_scrap.png",
+    "atlas": "small_parts",
+    "atlasCell": [
+      1,
+      0,
+      3,
+      3
+    ],
+    "crop": [
+      450,
+      123,
+      801,
+      357
+    ],
+    "width": 351,
+    "height": 234,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/10_tape_right.png",
+    "atlas": "small_parts",
+    "atlasCell": [
+      2,
+      0,
+      3,
+      3
+    ],
+    "crop": [
+      894,
+      175,
+      1169,
+      303
+    ],
+    "width": 275,
+    "height": 128,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/02_index_tab_top.png",
+    "atlas": "small_parts",
+    "atlasCell": [
+      0,
+      1,
+      3,
+      3
+    ],
+    "crop": [
+      143,
+      503,
+      308,
+      774
+    ],
+    "width": 165,
+    "height": 271,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/03_index_tab_middle.png",
+    "atlas": "small_parts",
+    "atlasCell": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "crop": [
+      540,
+      504,
+      715,
+      775
+    ],
+    "width": 175,
+    "height": 271,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/04_index_tab_bottom.png",
+    "atlas": "small_parts",
+    "atlasCell": [
+      2,
+      1,
+      3,
+      3
+    ],
+    "crop": [
+      945,
+      505,
+      1121,
+      773
+    ],
+    "width": 176,
+    "height": 268,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/05_bottom_bookmark.png",
+    "atlas": "small_parts",
+    "atlasCell": [
+      0,
+      2,
+      3,
+      3
+    ],
+    "crop": [
+      151,
+      919,
+      314,
+      1169
+    ],
+    "width": 163,
+    "height": 250,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/07_left_diagonal_paper.png",
+    "atlas": "page_details",
+    "atlasCell": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "crop": [
+      26,
+      127,
+      617,
+      560
+    ],
+    "width": 591,
+    "height": 433,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 255
+  },
+  {
+    "file": "Art/20_pencil_hatch_upper.png",
+    "atlas": "page_details",
+    "atlasCell": [
+      1,
+      0,
+      2,
+      2
+    ],
+    "crop": [
+      757,
+      259,
+      1138,
+      432
+    ],
+    "width": 381,
+    "height": 173,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 188
+  },
+  {
+    "file": "Art/21_pencil_hatch_lower.png",
+    "atlas": "page_details",
+    "atlasCell": [
+      0,
+      1,
+      2,
+      2
+    ],
+    "crop": [
+      168,
+      866,
+      465,
+      1031
+    ],
+    "width": 297,
+    "height": 165,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 179
+  },
+  {
+    "file": "Art/22_pencil_underline.png",
+    "atlas": "page_details",
+    "atlasCell": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "crop": [
+      709,
+      913,
+      1163,
+      963
+    ],
+    "width": 454,
+    "height": 50,
+    "transparent": true,
+    "alphaMin": 0,
+    "alphaMax": 191
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "note": "设计目标近似色值。以scene2_ui_reference.png视觉为准；在保留纸纹的基础上调色，不要直接用这些色值乘已有彩色贴图造成颜色偏暗。",
+  "background": "#353329",
+  "inventory_paper": "#A1A58E",
+  "central_graph_paper": "#363A30",
+  "backing_papers": "#ADB198",
+  "accent_apricot": "#D7A68D",
+  "ivory_paper": "#F0E7D2",
+  "dialogue_block": "#818977",
+  "notebook_top_tape": "#C1B37A",
+  "selection_and_dot": "#C5AA68"
+}

@@ -1,0 +1,30 @@
+场景2：汽车旅馆
+
+打开方式
+在 Unity Project 中双击：
+Assets/GameUI_Handoff/Implementation/Scenes/Scene2Motel.unity
+或使用菜单 Tools > Game UI > Open Scene 2 - Motel。
+
+独立可编辑 Prefab
+Assets/GameUI_Handoff/Implementation/Prefabs/Scene2MotelUIRoot.prefab
+场景1原场景与原Prefab未改动。场景2保留场景1当前的场景覆盖、全部布局、纸张形状、层级和选择组件。
+
+素材与配色
+中央为 room_lights_on；六物品从左上到右下依次为琴盒、啤酒组、外套、打开的行李箱、乐谱、饼干盒。
+初始选中右中行李箱。原始PNG未改动，七张导入元数据按sprite_bounds.json精确配置Sprite Rect。
+独立换色纸纹：Assets/GameUI_Handoff/Implementation/Generated/Scene2Motel/Paper/
+辅助编辑器脚本：Assets/GameUI_Handoff/Implementation/Editor/Scene2MotelArt.cs、Scene2MotelTheme.cs、Scene2MotelVerification.cs。
+
+检查状态
+已检查保存文件的资源引用、原生Sprite标识、39条场景覆盖、127条Transform完全一致、纸形和阴影参数不变、六个命中区和选择组件引用，以及1920x1080/1280x720的等比适配计算。
+三个新编辑器脚本使用当前Unity编译参数静态编译通过。
+实际Unity导入编译、Game视图截图、Play模式点击检查尚未运行：Unity MCP操作调用被审批策略拒绝，原因为approval policy is never。
+不应把上述文件/计算检查理解为Game视图或实际点击已通过。
+操作权限恢复后可在Scene2Motel打开Game视图，使用 Tools > Game UI > Verify Scene 2 - Motel，分别检查1920x1080和1280x720并截取真实Game视图。
+
+剧情接口
+当前独立纸张Study没有旧音乐厅事件，场景2未接入旧GrayboxGame。
+既有Motel剧情仍是占位，六个新道具缺少语义映射；房间热点、对话和进度事件需补充对应剧情数据后绑定，未编造谜题或事件。
+
+详细文件检查记录
+Assets/GameUI_Handoff/Implementation/Verification/Scene2Motel/offline_validation.json

@@ -1,0 +1,597 @@
+{
+  "status": "file_checks_passed_runtime_checks_pending",
+  "scene": "Assets\\GameUI_Handoff\\Implementation\\Scenes\\Scene2Motel.unity",
+  "prefab": "Assets\\GameUI_Handoff\\Implementation\\Prefabs\\Scene2MotelUIRoot.prefab",
+  "source_scene_sha256": "416880015f7be8ff5027c12b7639bdefa16f3c9735c3a7780fd1bcb08b932ad5",
+  "source_prefab_sha256": "b18319643b89271c16d8aefd47016c335ad8f960c57fcbeb8c828a293f301080",
+  "scene_overrides_preserved": 39,
+  "gameobjects": 127,
+  "transform_records_identical": 127,
+  "components_and_paper_shapes_unchanged": true,
+  "original_pngs_unchanged": 19,
+  "art": {
+    "selected_item": "open_suitcase",
+    "selection_frame_states": {
+      "violin_case": 0,
+      "beer": 0,
+      "coat": 0,
+      "open_suitcase": 1,
+      "music_score": 0,
+      "biscuit_tin": 0
+    },
+    "images": [
+      {
+        "gameobject_id": 5555589354820195223,
+        "name": "motel_room",
+        "image_id": 2531163551775604259,
+        "sprite_guid": "7d1586c56a033704487c08f7721e725d",
+        "sprite_file_id": 8860886978819459787
+      },
+      {
+        "gameobject_id": 3521788198791203338,
+        "name": "violin_case",
+        "image_id": 5577886672460777551,
+        "sprite_guid": "e393511a992a8ea4082c931afe347772",
+        "sprite_file_id": 7472878188573130725
+      },
+      {
+        "gameobject_id": 8058809258110529727,
+        "name": "beer",
+        "image_id": 527201228357878988,
+        "sprite_guid": "95be464d64870d8419045c3edfad02bc",
+        "sprite_file_id": 6779204642115704726
+      },
+      {
+        "gameobject_id": 3141977549780462639,
+        "name": "coat",
+        "image_id": 1901816241486299501,
+        "sprite_guid": "c1d932d5632a27949a17c037ccc46b23",
+        "sprite_file_id": 4940574556573517943
+      },
+      {
+        "gameobject_id": 3785715112828760283,
+        "name": "open_suitcase",
+        "image_id": 5648644445156431858,
+        "sprite_guid": "e27d9389e303a1441bf327d3d8f9dcbb",
+        "sprite_file_id": -7511412878534340659
+      },
+      {
+        "gameobject_id": 5188469730616044019,
+        "name": "music_score",
+        "image_id": 6366989272290713114,
+        "sprite_guid": "3667f5975d8526b458838215d4338932",
+        "sprite_file_id": -8454311586920937293
+      },
+      {
+        "gameobject_id": 8610102535920531052,
+        "name": "biscuit_tin",
+        "image_id": 2449631907355450084,
+        "sprite_guid": "13399ecf901f1ae4ca3a476465bd9ae3",
+        "sprite_file_id": -2328700226227608542
+      }
+    ],
+    "assets": [
+      {
+        "png": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Room/room_lights_on.png",
+        "meta": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Room/room_lights_on.png.meta",
+        "guid": "7d1586c56a033704487c08f7721e725d",
+        "native_file_id": 8860886978819459787,
+        "sprite_id": "bca0b6f92c138fa70800000000000000",
+        "sprite_name": "room_lights_on_0",
+        "sprite_rect_before": {
+          "serializedVersion": 2,
+          "x": 78,
+          "y": 27,
+          "width": 1711,
+          "height": 1315
+        },
+        "sprite_rect_after": {
+          "serializedVersion": 2,
+          "x": 79,
+          "y": 28,
+          "width": 1709,
+          "height": 1313
+        },
+        "png_sha256_before": "832a0825d71c7466cf07d5b3adbdcf783c0d6cd3d64eb8c87cfd837b2e1bacdd",
+        "meta_sha256_before": "8c35f130ac9f0f50ee9c965a011789aee9e3249d4a1ddf0f105070a5d3bb7d17",
+        "meta_sha256_after": "53a13ddb6d42ff0d5e0c259b4030decf58288a97af0e630a4c0fbc6e6f4086d3",
+        "png_sha256_after": "832a0825d71c7466cf07d5b3adbdcf783c0d6cd3d64eb8c87cfd837b2e1bacdd",
+        "png_unchanged": true
+      },
+      {
+        "png": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/violin_case.png",
+        "meta": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/violin_case.png.meta",
+        "guid": "e393511a992a8ea4082c931afe347772",
+        "native_file_id": 7472878188573130725,
+        "sprite_id": "5ef7aa79e1ff4b760800000000000000",
+        "sprite_name": "violin_case_0",
+        "sprite_rect_before": {
+          "serializedVersion": 2,
+          "x": 416,
+          "y": 580,
+          "width": 287,
+          "height": 137
+        },
+        "sprite_rect_after": {
+          "serializedVersion": 2,
+          "x": 417,
+          "y": 581,
+          "width": 285,
+          "height": 135
+        },
+        "png_sha256_before": "11e280c85f44ca8de41afb9bfa02622d4e847b12db8d7ebbd8a509607ddfe3c8",
+        "meta_sha256_before": "2741eec60ed44f8152fe22099b5451cec4ec3cd5efff857539adeaebb4e02900",
+        "meta_sha256_after": "ac19a0840db515cd15c5dff9e18073f9a74e539033a01b0ecb6b0ca0ba32e3ad",
+        "png_sha256_after": "11e280c85f44ca8de41afb9bfa02622d4e847b12db8d7ebbd8a509607ddfe3c8",
+        "png_unchanged": true
+      },
+      {
+        "png": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/beer.png",
+        "meta": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/beer.png.meta",
+        "guid": "95be464d64870d8419045c3edfad02bc",
+        "native_file_id": 6779204642115704726,
+        "sprite_id": "6975cf844b2941e50800000000000000",
+        "sprite_name": "beer_0",
+        "sprite_rect_before": {
+          "serializedVersion": 2,
+          "x": 959,
+          "y": 712,
+          "width": 55,
+          "height": 73
+        },
+        "sprite_rect_after": {
+          "serializedVersion": 2,
+          "x": 960,
+          "y": 713,
+          "width": 53,
+          "height": 71
+        },
+        "png_sha256_before": "78eeee652123d275b4c44cc14a5e0b25b83d12cb00616ff1bd204f058bf9c6aa",
+        "meta_sha256_before": "fef9f63d30e37ffa9308addc52a0e7d7d7f476de81dd0a72d68becc987607838",
+        "meta_sha256_after": "1d785832085ac4749386525eb72745d831e64647c63189eafa3865ccbcee74f3",
+        "png_sha256_after": "78eeee652123d275b4c44cc14a5e0b25b83d12cb00616ff1bd204f058bf9c6aa",
+        "png_unchanged": true
+      },
+      {
+        "png": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/coat.png",
+        "meta": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/coat.png.meta",
+        "guid": "c1d932d5632a27949a17c037ccc46b23",
+        "native_file_id": 4940574556573517943,
+        "sprite_id": "778c5e60262709440800000000000000",
+        "sprite_name": "coat_0",
+        "sprite_rect_before": {
+          "serializedVersion": 2,
+          "x": 78,
+          "y": 120,
+          "width": 385,
+          "height": 309
+        },
+        "sprite_rect_after": {
+          "serializedVersion": 2,
+          "x": 79,
+          "y": 121,
+          "width": 383,
+          "height": 307
+        },
+        "png_sha256_before": "ac6d969cdeca6673a67aec7952e75f161b8539e3cdbec2386250ce481059a80a",
+        "meta_sha256_before": "72498e4dab3da12247217639a82a80b4bd7c519a60f66e020a268a02c564fa30",
+        "meta_sha256_after": "2b27ce967efc62e5f921740d83b5c2b806bdb683c8629a2e9c7c8ab9bdd935b4",
+        "png_sha256_after": "ac6d969cdeca6673a67aec7952e75f161b8539e3cdbec2386250ce481059a80a",
+        "png_unchanged": true
+      },
+      {
+        "png": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/open_suitcase.png",
+        "meta": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/open_suitcase.png.meta",
+        "guid": "e27d9389e303a1441bf327d3d8f9dcbb",
+        "native_file_id": -7511412878534340659,
+        "sprite_id": "dcf8aadb8c912c790800000000000000",
+        "sprite_name": "open_suitcase_0",
+        "sprite_rect_before": {
+          "serializedVersion": 2,
+          "x": 1069,
+          "y": 349,
+          "width": 468,
+          "height": 262
+        },
+        "sprite_rect_after": {
+          "serializedVersion": 2,
+          "x": 1070,
+          "y": 350,
+          "width": 466,
+          "height": 260
+        },
+        "png_sha256_before": "80109b055c2dceeb33d16a30f355d37cebd7f429bd84d2931db19399b5e3456f",
+        "meta_sha256_before": "519f37048fd68a98acef61ccea93d86c99aeac5e902a37283d5bbd51d416fec4",
+        "meta_sha256_after": "8b10e02f6df564d9044569bc8ca195df1166862b896e0fcfbd2acfc8308402ea",
+        "png_sha256_after": "80109b055c2dceeb33d16a30f355d37cebd7f429bd84d2931db19399b5e3456f",
+        "png_unchanged": true
+      },
+      {
+        "png": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/music_score.png",
+        "meta": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/music_score.png.meta",
+        "guid": "3667f5975d8526b458838215d4338932",
+        "native_file_id": -8454311586920937293,
+        "sprite_id": "3b8cb1197604caa80800000000000000",
+        "sprite_name": "music_score_0",
+        "sprite_rect_before": {
+          "serializedVersion": 2,
+          "x": 1012,
+          "y": 692,
+          "width": 76,
+          "height": 106
+        },
+        "sprite_rect_after": {
+          "serializedVersion": 2,
+          "x": 1013,
+          "y": 693,
+          "width": 74,
+          "height": 104
+        },
+        "png_sha256_before": "2f782328334d6bf0d83b0a087737f70a69009eaf93087791e7a3fbc55f3e2ee7",
+        "meta_sha256_before": "14aea7f8732fc87356e60792de198be1b111af7d1535b2067364f09b83611cad",
+        "meta_sha256_after": "3c456f18e543652998729cb1adc3f975b7ecca1ead145929b4a7f49a29731bbb",
+        "png_sha256_after": "2f782328334d6bf0d83b0a087737f70a69009eaf93087791e7a3fbc55f3e2ee7",
+        "png_unchanged": true
+      },
+      {
+        "png": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/biscuit_tin.png",
+        "meta": "Assets/Scene2_Motel_Unity_Handoff/Assets/ThatGameJam2026/Scene2Motel/Art/Props/biscuit_tin.png.meta",
+        "guid": "13399ecf901f1ae4ca3a476465bd9ae3",
+        "native_file_id": -2328700226227608542,
+        "sprite_id": "224e4537b7bceafd0800000000000000",
+        "sprite_name": "biscuit_tin_0",
+        "sprite_rect_before": {
+          "serializedVersion": 2,
+          "x": 1596,
+          "y": 551,
+          "width": 122,
+          "height": 74
+        },
+        "sprite_rect_after": {
+          "serializedVersion": 2,
+          "x": 1597,
+          "y": 552,
+          "width": 120,
+          "height": 72
+        },
+        "png_sha256_before": "cf85ef6e1d166fae92c7992ffff615098d1066b38d64e290b0132e549c5ff1d7",
+        "meta_sha256_before": "dc172ce6f3a5fbf552e90df64721074e1c6d482c34a8f6c7f00566f9af58b0e1",
+        "meta_sha256_after": "aad7b9ec29c0f4526957f2f5ac6e31d0421ee6000b2173c40cfdcbe2e6bed05e",
+        "png_sha256_after": "cf85ef6e1d166fae92c7992ffff615098d1066b38d64e290b0132e549c5ff1d7",
+        "png_unchanged": true
+      }
+    ],
+    "modified_doc_ids": [
+      527201228357878988,
+      1901816241486299501,
+      2255404905676746283,
+      2449631907355450084,
+      2531163551775604259,
+      3141977549780462639,
+      3521788198791203338,
+      3785715112828760283,
+      5188469730616044019,
+      5555589354820195223,
+      5577886672460777551,
+      5648644445156431858,
+      6366989272290713114,
+      8058809258110529727,
+      8610102535920531052
+    ],
+    "modified_meta_count": 7,
+    "geometry_document_count_unchanged": 127,
+    "native_sprite_identity_preserved": true,
+    "pngs_unchanged": true,
+    "unity_executed": false
+  },
+  "theme": {
+    "paper_graphics": 30,
+    "non_paper_graphics": 18,
+    "shadow_graphics_skipped": 28,
+    "texture_references_updated": 28,
+    "generated_textures": 14,
+    "reused_textures": 0,
+    "changed_documents": 41,
+    "outputs": [
+      {
+        "guid": "1d519bf564cf5fc8bfb2ca5b3589ca72",
+        "sourceGuid": "ec2c6cb728a235945ad8a908a5834467",
+        "targetRGB": "F0E7D2",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\IvoryOatmeal_ec2c6cb7_F0E7D2.png",
+        "sourceHash": "f9117df4d909a555bf0b87b3f51635c055922cb484e92856058b632b88857697"
+      },
+      {
+        "guid": "45733433a9315e51ab08d893bf403954",
+        "sourceGuid": "5d17da8d0e796f1468fb1a972f0d90ec",
+        "targetRGB": "D7A68D",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\NotebookOpenLilac_5d17da8d_D7A68D.png",
+        "sourceHash": "189c4fa8830132a17e01be0e3fbb4fa274012b440466bd380f8f32ec851ac6c9"
+      },
+      {
+        "guid": "d4fdc1e361f45021a1b729792c588425",
+        "sourceGuid": "4827f5c8c6caa52498d10e6e71675861",
+        "targetRGB": "F0E7D2",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\NotebookOpenReading_4827f5c8_F0E7D2.png",
+        "sourceHash": "5e6f57ba0c62137189d5a6a03fca0728615ca92e967592d8e30fe996210f9266"
+      },
+      {
+        "guid": "fb9edb8f73e15bcc95c98f96ff6d35d4",
+        "sourceGuid": "a73f74cc4edeabf438cfdaf35277a218",
+        "targetRGB": "D7A68D",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\IvoryLilac_a73f74cc_D7A68D.png",
+        "sourceHash": "bc3f20c59615256ac08a46ec133a914220c5f7a7aeb5e2582c8aebfeae339138"
+      },
+      {
+        "guid": "ee9717427c255e69963a46572bdec9de",
+        "sourceGuid": "ec2c6cb728a235945ad8a908a5834467",
+        "targetRGB": "ADB198",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\IvoryOatmeal_ec2c6cb7_ADB198.png",
+        "sourceHash": "f9117df4d909a555bf0b87b3f51635c055922cb484e92856058b632b88857697"
+      },
+      {
+        "guid": "c33309bb156854deb3a711d33c9e440e",
+        "sourceGuid": "8d0b85e5e8a9cd8448ba7b2982a5802f",
+        "targetRGB": "A1A58E",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\CardstockSage_8d0b85e5_A1A58E.png",
+        "sourceHash": "60dbfe093cbf44a1c0d306671a8eac3b5ce15d701d9bd5f27f04c0c5f5a5de48"
+      },
+      {
+        "guid": "19032b1fdbb25f229983a3f811abaf32",
+        "sourceGuid": "0945c813a856d8f46af0195e530ac6f0",
+        "targetRGB": "ADB198",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\IvorySage_0945c813_ADB198.png",
+        "sourceHash": "af385994e170d12df14457d1dbeb7dfc758047355ef6d2c57251ca58075e4bf5"
+      },
+      {
+        "guid": "be943135a51d5862b2d524446846f69f",
+        "sourceGuid": "89969887da51bdf4e998e3e383992767",
+        "targetRGB": "363A30",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\GraphIndigo_89969887_363A30.png",
+        "sourceHash": "f00ec57b45e6d5c3b99fdcc08d7149faf4bbc27f14ab304ef7ef5d7ca9b3a35e"
+      },
+      {
+        "guid": "b13a9668a055593b8ecb718a5bcda4e6",
+        "sourceGuid": "4974a12da7aec3d4494b2082cb64b509",
+        "targetRGB": "F0E7D2",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\NotebookOpenIvory_4974a12d_F0E7D2.png",
+        "sourceHash": "a7eb6a6fef72d896d3f45aab3d718b667aeaa2681604a740bfae46a3673b4562"
+      },
+      {
+        "guid": "4e4e4eaae0fd5d4a800daaf5b2348b21",
+        "sourceGuid": "b5073050a09a77047b0cd87251ac5ea2",
+        "targetRGB": "D7A68D",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\GraphCream_b5073050_D7A68D.png",
+        "sourceHash": "d538d1518a38248cb83b5f991c57fcdea06cdc41d236355eda84f73d51642541"
+      },
+      {
+        "guid": "85678ffe41475d8f94484517dc4a8397",
+        "sourceGuid": "77ee337296384184fbedd6d96621eaaa",
+        "targetRGB": "C1B37A",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\NotebookOpenLabel_77ee3372_C1B37A.png",
+        "sourceHash": "4ca5d8585ebb904556632269cd889c7cf1b51b7c5b6ef322e8ce5b8bf86e87fb"
+      },
+      {
+        "guid": "e59aa013e7005c5b8a755de3ead7838c",
+        "sourceGuid": "6e53b2d42d7d6b24297ef5007544d63f",
+        "targetRGB": "353329",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\CardstockIndigo_6e53b2d4_353329.png",
+        "sourceHash": "d0d571eb79fd6b1685d2184bfdd7009d6221467acd6dc05b210059b4a41601a2"
+      },
+      {
+        "guid": "d586779e43b55fc4a9491a16ac625861",
+        "sourceGuid": "77ee337296384184fbedd6d96621eaaa",
+        "targetRGB": "818977",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\NotebookOpenLabel_77ee3372_818977.png",
+        "sourceHash": "4ca5d8585ebb904556632269cd889c7cf1b51b7c5b6ef322e8ce5b8bf86e87fb"
+      },
+      {
+        "guid": "dec7b425b295545e83839f1bc97463c2",
+        "sourceGuid": "b5073050a09a77047b0cd87251ac5ea2",
+        "targetRGB": "F0E7D2",
+        "path": "Assets\\GameUI_Handoff\\Implementation\\Generated\\Scene2Motel\\Paper\\GraphCream_b5073050_F0E7D2.png",
+        "sourceHash": "d538d1518a38248cb83b5f991c57fcdea06cdc41d236355eda84f73d51642541"
+      }
+    ],
+    "palette": {
+      "background": "353329",
+      "inventory_paper": "A1A58E",
+      "central_graph_paper": "363A30",
+      "backing_papers": "ADB198",
+      "accent_apricot": "D7A68D",
+      "ivory_paper": "F0E7D2",
+      "dialogue_block": "818977",
+      "notebook_top_tape": "C1B37A",
+      "selection_and_dot": "C5AA68"
+    }
+  },
+  "runtime_checks": "NOT RUN: Unity MCP tool operations rejected by approval policy never.",
+  "story": "No scene-1 events inherited. Motel story is placeholder data; no invented puzzle or progress binding.",
+  "display_aspect_calculations": [
+    {
+      "id": "motel_room",
+      "inherited_image_box": [
+        972.4357,
+        785.2845
+      ],
+      "source_sprite_rect": {
+        "serializedVersion": 2,
+        "x": 79,
+        "y": 28,
+        "width": 1709,
+        "height": 1313
+      },
+      "contain_size_at_1920x1080": [
+        972.4357000000001,
+        747.1082937975425
+      ],
+      "contain_size_at_1280x720": [
+        648.2904666666667,
+        498.07219586502833
+      ],
+      "stretched": false,
+      "calculated_only_not_rendered": true
+    },
+    {
+      "id": "violin_case",
+      "inherited_image_box": [
+        71.2,
+        161.8
+      ],
+      "source_sprite_rect": {
+        "serializedVersion": 2,
+        "x": 417,
+        "y": 581,
+        "width": 285,
+        "height": 135
+      },
+      "contain_size_at_1920x1080": [
+        71.2,
+        33.72631578947369
+      ],
+      "contain_size_at_1280x720": [
+        47.46666666666667,
+        22.484210526315792
+      ],
+      "stretched": false,
+      "calculated_only_not_rendered": true
+    },
+    {
+      "id": "beer",
+      "inherited_image_box": [
+        144.6,
+        151.5
+      ],
+      "source_sprite_rect": {
+        "serializedVersion": 2,
+        "x": 960,
+        "y": 713,
+        "width": 53,
+        "height": 71
+      },
+      "contain_size_at_1920x1080": [
+        113.09154929577466,
+        151.5
+      ],
+      "contain_size_at_1280x720": [
+        75.3943661971831,
+        101.0
+      ],
+      "stretched": false,
+      "calculated_only_not_rendered": true
+    },
+    {
+      "id": "coat",
+      "inherited_image_box": [
+        79.2,
+        104.4
+      ],
+      "source_sprite_rect": {
+        "serializedVersion": 2,
+        "x": 79,
+        "y": 121,
+        "width": 383,
+        "height": 307
+      },
+      "contain_size_at_1920x1080": [
+        79.2,
+        63.48407310704961
+      ],
+      "contain_size_at_1280x720": [
+        52.800000000000004,
+        42.32271540469974
+      ],
+      "stretched": false,
+      "calculated_only_not_rendered": true
+    },
+    {
+      "id": "open_suitcase",
+      "inherited_image_box": [
+        135.4,
+        86.1
+      ],
+      "source_sprite_rect": {
+        "serializedVersion": 2,
+        "x": 1070,
+        "y": 350,
+        "width": 466,
+        "height": 260
+      },
+      "contain_size_at_1920x1080": [
+        135.4,
+        75.54506437768241
+      ],
+      "contain_size_at_1280x720": [
+        90.26666666666667,
+        50.363376251788274
+      ],
+      "stretched": false,
+      "calculated_only_not_rendered": true
+    },
+    {
+      "id": "music_score",
+      "inherited_image_box": [
+        110.2,
+        156.1
+      ],
+      "source_sprite_rect": {
+        "serializedVersion": 2,
+        "x": 1013,
+        "y": 693,
+        "width": 74,
+        "height": 104
+      },
+      "contain_size_at_1920x1080": [
+        110.2,
+        154.8756756756757
+      ],
+      "contain_size_at_1280x720": [
+        73.46666666666667,
+        103.25045045045046
+      ],
+      "stretched": false,
+      "calculated_only_not_rendered": true
+    },
+    {
+      "id": "biscuit_tin",
+      "inherited_image_box": [
+        129.7,
+        104.4
+      ],
+      "source_sprite_rect": {
+        "serializedVersion": 2,
+        "x": 1597,
+        "y": 552,
+        "width": 120,
+        "height": 72
+      },
+      "contain_size_at_1920x1080": [
+        129.7,
+        77.82
+      ],
+      "contain_size_at_1280x720": [
+        86.46666666666665,
+        51.879999999999995
+      ],
+      "stretched": false,
+      "calculated_only_not_rendered": true
+    }
+  ],
+  "click_wiring_file_checks": {
+    "nonblocking_decorations": true,
+    "six_inherited_hit_areas": [
+      "Design_1920x1080/InventoryPanel/Items/open_suitcase/InventoryHitArea",
+      "Design_1920x1080/InventoryPanel/Items/coat/InventoryHitArea",
+      "Design_1920x1080/InventoryPanel/Items/violin_case/InventoryHitArea",
+      "Design_1920x1080/InventoryPanel/Items/biscuit_tin/InventoryHitArea",
+      "Design_1920x1080/InventoryPanel/Items/music_score/InventoryHitArea",
+      "Design_1920x1080/InventoryPanel/Items/beer/InventoryHitArea"
+    ],
+    "handler_selected_id": "open_suitcase",
+    "actual_click_test": "NOT RUN"
+  },
+  "csharp_static_compile": {
+    "script_count": 3,
+    "exit_code": 0,
+    "unity_editor_compilation": "NOT RUN"
+  }
+}

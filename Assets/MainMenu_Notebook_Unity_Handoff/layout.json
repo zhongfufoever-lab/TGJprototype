@@ -1,0 +1,477 @@
+{
+  "title": "孕育与诞生 主菜单分层素材",
+  "version": 1,
+  "designWidth": 1920,
+  "designHeight": 1080,
+  "sourceWidth": 1672,
+  "sourceHeight": 941,
+  "coordinateOrigin": "top-left",
+  "reference": "Reference/Approved_Reference.png",
+  "notes": [
+    "分层素材依据合成参考重建并补齐遮挡区域，并非原始PSD绘画图层。",
+    "五个菜单纸条分别独立；此包不包含文字和剧情逻辑。",
+    "PNG已按真实透明通道整理；阴影随各自素材保留。"
+  ],
+  "layers": [
+    {
+      "id": "Background",
+      "file": "Art/00_background.png",
+      "parent": "DesignRoot",
+      "order": 0,
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "interactive": false,
+      "role": "Full-frame neutral dark graphite grid background",
+      "sourceRect": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "pixelWidth": 1672,
+      "pixelHeight": 941
+    },
+    {
+      "id": "BookCover",
+      "file": "Art/01_book_cover.png",
+      "parent": "DesignRoot",
+      "order": 10,
+      "x": 142,
+      "y": 77,
+      "width": 1625,
+      "height": 931,
+      "interactive": false,
+      "role": "Complete irregular open cover and cast shadow, clean beneath all pages",
+      "sourceRect": [
+        124,
+        67,
+        1415,
+        811
+      ],
+      "pixelWidth": 1472,
+      "pixelHeight": 828
+    },
+    {
+      "id": "IndexTabTop",
+      "file": "Art/02_index_tab_top.png",
+      "parent": "DesignRoot",
+      "order": 20,
+      "x": 1717,
+      "y": 257,
+      "width": 71,
+      "height": 96,
+      "interactive": false,
+      "role": "Upper muted lilac-grey side index tab tucked behind right page edge",
+      "sourceRect": [
+        1495,
+        224,
+        62,
+        84
+      ],
+      "pixelWidth": 165,
+      "pixelHeight": 271
+    },
+    {
+      "id": "IndexTabMiddle",
+      "file": "Art/03_index_tab_middle.png",
+      "parent": "DesignRoot",
+      "order": 21,
+      "x": 1719,
+      "y": 355,
+      "width": 70,
+      "height": 100,
+      "interactive": false,
+      "role": "Middle muted sage-grey side index tab tucked behind right page edge",
+      "sourceRect": [
+        1497,
+        309,
+        61,
+        87
+      ],
+      "pixelWidth": 175,
+      "pixelHeight": 271
+    },
+    {
+      "id": "IndexTabBottom",
+      "file": "Art/04_index_tab_bottom.png",
+      "parent": "DesignRoot",
+      "order": 22,
+      "x": 1719,
+      "y": 457,
+      "width": 70,
+      "height": 101,
+      "interactive": false,
+      "role": "Lower stone-grey side index tab tucked behind right page edge",
+      "sourceRect": [
+        1497,
+        398,
+        61,
+        88
+      ],
+      "pixelWidth": 176,
+      "pixelHeight": 268
+    },
+    {
+      "id": "BottomBookmark",
+      "file": "Art/05_bottom_bookmark.png",
+      "parent": "DesignRoot",
+      "order": 25,
+      "x": 1470,
+      "y": 953,
+      "width": 72,
+      "height": 85,
+      "interactive": false,
+      "role": "Bottom V-notched woven paper bookmark tucked behind page edge",
+      "sourceRect": [
+        1280,
+        830,
+        63,
+        74
+      ],
+      "pixelWidth": 163,
+      "pixelHeight": 250
+    },
+    {
+      "id": "BoundPageSpread",
+      "file": "Art/06_bound_page_spread.png",
+      "parent": "DesignRoot",
+      "order": 30,
+      "x": 168,
+      "y": 88,
+      "width": 1577,
+      "height": 887,
+      "interactive": false,
+      "role": "Clean connected ruled spread, page block, spine, irregular sheet edges and bottom-right curled corner",
+      "sourceRect": [
+        146,
+        77,
+        1373,
+        773
+      ],
+      "pixelWidth": 1574,
+      "pixelHeight": 912
+    },
+    {
+      "id": "LeftDiagonalPaper",
+      "file": "Art/07_left_diagonal_paper.png",
+      "parent": "DesignRoot",
+      "order": 40,
+      "x": 187,
+      "y": 558,
+      "width": 545,
+      "height": 404,
+      "interactive": false,
+      "role": "Pale irregular translucent paper overlay across bottom-left page",
+      "sourceRect": [
+        163,
+        486,
+        475,
+        352
+      ],
+      "pixelWidth": 591,
+      "pixelHeight": 433
+    },
+    {
+      "id": "GraphPaperScrap",
+      "file": "Art/08_graph_paper_scrap.png",
+      "parent": "DesignRoot",
+      "order": 50,
+      "x": 1439,
+      "y": 141,
+      "width": 258,
+      "height": 165,
+      "interactive": false,
+      "role": "Small fine-grid paper scrap near upper-right page, with whole hidden lower-left restored",
+      "sourceRect": [
+        1253,
+        123,
+        225,
+        144
+      ],
+      "pixelWidth": 351,
+      "pixelHeight": 234
+    },
+    {
+      "id": "TapeLeft",
+      "file": "Art/09_tape_left.png",
+      "parent": "DesignRoot",
+      "order": 60,
+      "x": 305,
+      "y": 86,
+      "width": 162,
+      "height": 61,
+      "interactive": false,
+      "role": "Small stone-grey tape strip across upper-left page edge",
+      "sourceRect": [
+        266,
+        75,
+        141,
+        53
+      ],
+      "pixelWidth": 345,
+      "pixelHeight": 131
+    },
+    {
+      "id": "TapeRight",
+      "file": "Art/10_tape_right.png",
+      "parent": "DesignRoot",
+      "order": 65,
+      "x": 1508,
+      "y": 124,
+      "width": 110,
+      "height": 52,
+      "interactive": false,
+      "role": "Small stone-grey tape strip securing graph paper scrap",
+      "sourceRect": [
+        1313,
+        108,
+        96,
+        45
+      ],
+      "pixelWidth": 275,
+      "pixelHeight": 128
+    },
+    {
+      "id": "MenuBackingUnder",
+      "file": "Art/11_menu_backing_under.png",
+      "parent": "DesignRoot",
+      "order": 70,
+      "x": 1013,
+      "y": 186,
+      "width": 666,
+      "height": 707,
+      "interactive": false,
+      "role": "Lower slightly offset ragged paper sheet, clean full rectangle beneath front sheet",
+      "sourceRect": [
+        882,
+        162,
+        580,
+        616
+      ],
+      "pixelWidth": 585,
+      "pixelHeight": 566
+    },
+    {
+      "id": "MenuBackingFront",
+      "file": "Art/12_menu_backing_front.png",
+      "parent": "DesignRoot",
+      "order": 80,
+      "x": 1004,
+      "y": 209,
+      "width": 657,
+      "height": 650,
+      "interactive": false,
+      "role": "Upper ruled ragged menu paper, clean surface beneath all five buttons",
+      "sourceRect": [
+        874,
+        182,
+        572,
+        566
+      ],
+      "pixelWidth": 579,
+      "pixelHeight": 573
+    },
+    {
+      "id": "TitlePaperUpper",
+      "file": "Art/13_title_paper_upper.png",
+      "parent": "DesignRoot",
+      "order": 90,
+      "x": 332,
+      "y": 287,
+      "width": 463,
+      "height": 208,
+      "interactive": false,
+      "role": "Large irregular stone-grey torn title paper on left page",
+      "sourceRect": [
+        289,
+        250,
+        403,
+        181
+      ],
+      "pixelWidth": 607,
+      "pixelHeight": 277
+    },
+    {
+      "id": "TitlePaperLower",
+      "file": "Art/14_title_paper_lower.png",
+      "parent": "DesignRoot",
+      "order": 100,
+      "x": 463,
+      "y": 472,
+      "width": 378,
+      "height": 184,
+      "interactive": false,
+      "role": "Smaller dusty rose-grey torn subtitle paper on left page",
+      "sourceRect": [
+        403,
+        411,
+        329,
+        160
+      ],
+      "pixelWidth": 566,
+      "pixelHeight": 265
+    },
+    {
+      "id": "Btn_NewGame",
+      "file": "Art/15_btn_new_game.png",
+      "parent": "DesignRoot",
+      "order": 110,
+      "x": 1132,
+      "y": 257,
+      "width": 433,
+      "height": 121,
+      "interactive": true,
+      "role": "new_game",
+      "sourceRect": [
+        986,
+        224,
+        377,
+        105
+      ],
+      "pixelWidth": 878,
+      "pixelHeight": 228
+    },
+    {
+      "id": "Btn_Continue",
+      "file": "Art/16_btn_continue.png",
+      "parent": "DesignRoot",
+      "order": 120,
+      "x": 1138,
+      "y": 387,
+      "width": 424,
+      "height": 108,
+      "interactive": true,
+      "role": "continue",
+      "sourceRect": [
+        991,
+        337,
+        369,
+        94
+      ],
+      "pixelWidth": 883,
+      "pixelHeight": 215
+    },
+    {
+      "id": "Btn_Settings",
+      "file": "Art/17_btn_settings.png",
+      "parent": "DesignRoot",
+      "order": 130,
+      "x": 1138,
+      "y": 514,
+      "width": 413,
+      "height": 95,
+      "interactive": true,
+      "role": "settings",
+      "sourceRect": [
+        991,
+        448,
+        360,
+        83
+      ],
+      "pixelWidth": 880,
+      "pixelHeight": 202
+    },
+    {
+      "id": "Btn_Credits",
+      "file": "Art/18_btn_credits.png",
+      "parent": "DesignRoot",
+      "order": 140,
+      "x": 1138,
+      "y": 614,
+      "width": 410,
+      "height": 96,
+      "interactive": true,
+      "role": "credits",
+      "sourceRect": [
+        991,
+        535,
+        357,
+        84
+      ],
+      "pixelWidth": 880,
+      "pixelHeight": 199
+    },
+    {
+      "id": "Btn_Quit",
+      "file": "Art/19_btn_quit.png",
+      "parent": "DesignRoot",
+      "order": 150,
+      "x": 1138,
+      "y": 713,
+      "width": 412,
+      "height": 96,
+      "interactive": true,
+      "role": "quit",
+      "sourceRect": [
+        991,
+        621,
+        359,
+        84
+      ],
+      "pixelWidth": 881,
+      "pixelHeight": 201
+    },
+    {
+      "id": "PencilHatchUpper",
+      "file": "Art/20_pencil_hatch_upper.png",
+      "parent": "DesignRoot",
+      "order": 160,
+      "x": 994.45,
+      "y": 123.95,
+      "width": 105.65,
+      "height": 61.98,
+      "interactive": false,
+      "role": "page_detail",
+      "sourceRect": [
+        866,
+        108,
+        92,
+        54
+      ],
+      "pixelWidth": 381,
+      "pixelHeight": 173
+    },
+    {
+      "id": "PencilHatchLower",
+      "file": "Art/21_pencil_hatch_lower.png",
+      "parent": "DesignRoot",
+      "order": 161,
+      "x": 1529.57,
+      "y": 891.77,
+      "width": 96.46,
+      "height": 57.39,
+      "interactive": false,
+      "role": "page_detail",
+      "sourceRect": [
+        1332,
+        777,
+        84,
+        50
+      ],
+      "pixelWidth": 297,
+      "pixelHeight": 165
+    },
+    {
+      "id": "PencilUnderline",
+      "file": "Art/22_pencil_underline.png",
+      "parent": "DesignRoot",
+      "order": 162,
+      "x": 1090.91,
+      "y": 898.66,
+      "width": 191.77,
+      "height": 28.69,
+      "interactive": false,
+      "role": "page_detail",
+      "sourceRect": [
+        950,
+        783,
+        167,
+        25
+      ],
+      "pixelWidth": 454,
+      "pixelHeight": 50
+    }
+  ]
+}

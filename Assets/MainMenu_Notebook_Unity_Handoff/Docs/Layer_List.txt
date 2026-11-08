@@ -1,0 +1,72 @@
+图层顺序与命名
+基准 1920×1080；x、y 从左上角计。Unity 顶左锚点及 Pivot 时，Pos Y 填 -y。
+
+000  Background  网格背景
+    Art/00_background.png
+    x=0, y=0, width=1920, height=1080
+010  BookCover  书封与底部阴影
+    Art/01_book_cover.png
+    x=142, y=77, width=1625, height=931
+020  IndexTabTop  右侧上页签
+    Art/02_index_tab_top.png
+    x=1717, y=257, width=71, height=96
+021  IndexTabMiddle  右侧中页签
+    Art/03_index_tab_middle.png
+    x=1719, y=355, width=70, height=100
+022  IndexTabBottom  右侧下页签
+    Art/04_index_tab_bottom.png
+    x=1719, y=457, width=70, height=101
+025  BottomBookmark  底部书签
+    Art/05_bottom_bookmark.png
+    x=1470, y=953, width=72, height=85
+030  BoundPageSpread  干净书页与书脊
+    Art/06_bound_page_spread.png
+    x=168, y=88, width=1577, height=887
+040  LeftDiagonalPaper  左下斜纸
+    Art/07_left_diagonal_paper.png
+    x=187, y=558, width=545, height=404
+050  GraphPaperScrap  右上方格便签
+    Art/08_graph_paper_scrap.png
+    x=1439, y=141, width=258, height=165
+060  TapeLeft  左上胶带
+    Art/09_tape_left.png
+    x=305, y=86, width=162, height=61
+065  TapeRight  右上胶带
+    Art/10_tape_right.png
+    x=1508, y=124, width=110, height=52
+070  MenuBackingUnder  菜单下层底纸
+    Art/11_menu_backing_under.png
+    x=1013, y=186, width=666, height=707
+080  MenuBackingFront  菜单上层横线纸
+    Art/12_menu_backing_front.png
+    x=1004, y=209, width=657, height=650
+090  TitlePaperUpper  标题上纸片
+    Art/13_title_paper_upper.png
+    x=332, y=287, width=463, height=208
+100  TitlePaperLower  标题下纸片
+    Art/14_title_paper_lower.png
+    x=463, y=472, width=378, height=184
+110  Btn_NewGame  新游戏纸条
+    Art/15_btn_new_game.png
+    x=1132, y=257, width=433, height=121  [Button]
+120  Btn_Continue  继续纸条
+    Art/16_btn_continue.png
+    x=1138, y=387, width=424, height=108  [Button]
+130  Btn_Settings  设置纸条
+    Art/17_btn_settings.png
+    x=1138, y=514, width=413, height=95  [Button]
+140  Btn_Credits  制作人员纸条
+    Art/18_btn_credits.png
+    x=1138, y=614, width=410, height=96  [Button]
+150  Btn_Quit  退出纸条
+    Art/19_btn_quit.png
+    x=1138, y=713, width=412, height=96  [Button]
+160  PencilHatchUpper  右上斜线
+    Art/20_pencil_hatch_upper.png
+    x=994.45, y=123.95, width=105.65, height=61.98
+161  PencilHatchLower  右下斜线
+    Art/21_pencil_hatch_lower.png
+    x=1529.57, y=891.77, width=96.46, height=57.39
+162  PencilUnderline  底部铅笔短线
+    Art/22_pencil_underline.png
+    x=1090.91, y=898.66, width=191.77, height=28.69

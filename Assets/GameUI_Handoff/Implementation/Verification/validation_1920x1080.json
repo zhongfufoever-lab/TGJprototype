@@ -1,0 +1,55 @@
+{
+    "scene": "Assets/GameUI_Handoff/Implementation/Scenes/PaperCollageStudy.unity",
+    "width": 1920,
+    "height": 1080,
+    "layers": 35,
+    "graphics": 59,
+    "renderers": 59,
+    "items": 6,
+    "canvasScale": 1.0,
+    "expectedScale": 1.0,
+    "checks": [
+        "All specification coordinates, dimensions and clockwise rotations match",
+        "One overlay Canvas; every Graphic has a CanvasRenderer; six items draw above the backing",
+        "No Text, TMP, Selectable, input module, raycaster or automatic layout components",
+        "All decorative raycasts disabled; original art white and contain-fit",
+        "No dependency on the flat reference image; uniform centered fit without clipping"
+    ],
+    "visibleArt": [
+        {
+            "id": "phone",
+            "width": 71.19999694824219,
+            "height": 156.56239318847656
+        },
+        {
+            "id": "bag",
+            "width": 144.60000610351563,
+            "height": 148.64259338378906
+        },
+        {
+            "id": "key",
+            "width": 79.19999694824219,
+            "height": 100.1114273071289
+        },
+        {
+            "id": "ticket",
+            "width": 135.39999389648438,
+            "height": 52.06489181518555
+        },
+        {
+            "id": "book",
+            "width": 104.77945709228516,
+            "height": 156.10000610351563
+        },
+        {
+            "id": "wallet",
+            "width": 127.97419738769531,
+            "height": 104.4000015258789
+        },
+        {
+            "id": "concert_hall",
+            "width": 906.7000122070313,
+            "height": 730.0881958007813
+        }
+    ]
+}
